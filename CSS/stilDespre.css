@@ -267,6 +267,10 @@ body{
 		margin-left: 30%;
 	}
 
+	.main-container{
+		margin-top: 5vh;
+	}
+
 	.form-about-inputs{
 		width: 90%;
 	}
