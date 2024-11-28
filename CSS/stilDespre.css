@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	scroll-padding-top: 50px;
+}
+
+body{
+	background: linear-gradient(180deg,#ffffff,#e6e6e6);
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.imperial-script-regular {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-condensed-main-container {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.top-despre{
+	height: 45vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+
+	position: relative;
+  	animation: mymove;
+  	animation-duration: 3s;
+
+  	font-style: oblique;
+  	font-size: 25px;
+
+  	word-spacing: 4px;
+  	letter-spacing: 1px;
+
+  	font-family: Imperial Script, cursive;
+}
+
+.main-container{
+	font-family: Roboto Condensed, sans-serif
+}
+
+.main-box{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-self: center;
+	margin-top: -20px;
+
+	line-height: 1.8;
+}
+
+.main-box h1{
+	margin-bottom: 25px;
+	color: #008080;
+	font-size: 35px;
+	font-family: Times New Roman;
+}
+
+.box{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 35px;
+	line-height: 2;
+
+	margin-bottom: 150px;
+
+	font-family: Roboto Condensed, sans-serif;
+}
+
+.box img{
+	width: 600px;
+	height: 380px;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.20);
+}
+
+.p-box{
+	font-size: 23px;
+	font-style: oblique;
+
+	display: flex;
+	align-items: center;
+	padding: 0px 40px 0px 130px;
+}
+
+.main-box h3{
+	font-size: 25px;
+}
+
+.main-box ul{
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.main-box ul li{
+	color: #00b3b3;
+	font-style: oblique;
+}
+
+.main-box ul li p{
+	color: black;
+	font-style: normal;
+}
+
+.main-box h2{
+	color: #00b3b3;
+	font-style: oblique;
+}
+
+.main-box p{
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+
+.list-imperatives{
+	font-size: 20px;
+}
+
+.main-box .form-intro{
+	color: #cc5200;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-size: 30px;
+
+	margin-top: 50px;
+}
+
+#form-intro-2{
+	font-family: Times New Roman;
+	font-style: normal;
+	font-size: 22px;
+
+	margin-top: -25px;
+	margin-bottom: 50px;
+}
+
+#form-intro-2 a{
+	color: #cc5200;
+	font-style: oblique;
+	text-decoration: none;
+}
+
+#verse{
+	line-height: 2.5;
+	font-size: 21px;
+}
+
+#verse a{
+	font-style: oblique;
+	text-decoration: none;
+	color: black;
+}
+
+#ref{
+	margin-left: 900px;
+}
+
+#form-title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+	color: #cc5200;
+}
+
+#form-about{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.form-about-inputs{
+	font-family: Times New Roman;
+	font-size: 15px;
+	width: 400px;	 
+	height: 50px;
+	border: none;
+	outline: none;
+	padding-left: 25px;
+	font-weight: 500;
+	color: #4d4d4d;
+	border-radius: 15px;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.20);
+}
+
+.form-about-inputs:focus{
+	border: 2px solid #cc5200;
+}
+
+.form-about-inputs::placeholder{
+	color: #a9a9a9;
+}
+
+#form-about textarea{
+	height: 140px;
+	padding-top: 15px;
+}
+
+#form-about button{
+	font-family: Times New Roman;
+	display: flex;
+	align-items: center;
+	padding: 10px 30px;
+	margin-bottom: 100px;
+	font-size: 16px;
+	color: white;
+	gap: 10px;
+	border: none;
+	border-radius: 15px;
+	background: linear-gradient(270deg,#993d00,#ff8533);
+	cursor: pointer;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.20);
+}
+
+#form-about button:hover{
+	background: linear-gradient(180deg,#993d00,#ff8533);
+}
+
+
+@keyframes mymove {
+	from {top: -200px;}
+	to {top: 0px;}
+}
+
+.top-despre h2{
+	margin-left: 65%;
+}
+
+@media screen and (max-width: 600px) {
+ 	.top-despre{
+ 		padding-top: 0px;
+ 		font-size: 15px;
+ 		margin-left: 40px;
+ 	}
+
+ 	.top-despre h2{
+		margin-left: 30%;
+	}
+
+ 	@keyframes mymove {
+  		from {top: -200px;}
+  		to {top: 0px;}
+	}
+
+	.main-box{
+		width: 80%;
+	}
+
+	.main-box p{
+		font-size: 18px;
+	}
+
+	.box{
+		display: grid;
+		margin-bottom: 50px;
+	}
+
+	.box img{
+		width: 380px;
+		height: 230px;
+	}
+
+	.box p{
+		padding: 0px;
+	}
+}
