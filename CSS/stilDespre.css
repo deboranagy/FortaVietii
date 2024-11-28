@@ -31,6 +31,8 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	justify-self: center;
+	justify-items: center;
 	align-items: center;
 	gap: 25px;
 
@@ -251,7 +253,7 @@ body{
 
 @media screen and (max-width: 1200px) {
  	.top-despre{
- 		padding-top: 10vh;
+ 		padding-top: 20vh;
  		font-size: 15px;
  		margin-left: 40px;
  	}
