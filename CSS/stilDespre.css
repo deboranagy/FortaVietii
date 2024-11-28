@@ -254,7 +254,7 @@ body{
 @media screen and (max-width: 1200px) {
  	.top-despre{
  		padding-top: 20vh;
- 		font-size: 5vh;
+ 		font-size: 1.2vh;
  		margin-left: 40px;
  	}
 
@@ -285,7 +285,7 @@ body{
 	}
 
 	.main-box p{
-		font-size: 4vh;
+		font-size: 1vh;
 	}
 
 	.box{
