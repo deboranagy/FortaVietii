@@ -129,6 +129,8 @@ body{
  		justify-content: center;
 		justify-self: center;
 		justify-items: center;
+
+		line-height: 1.5;
  	}
 
  	.citat h2{
