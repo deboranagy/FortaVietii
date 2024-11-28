@@ -254,7 +254,7 @@ body{
 @media screen and (max-width: 1200px) {
  	.top-despre{
  		padding-top: 15vh;
- 		font-size: 2vh;
+ 		font-size: 2.1vh;
 		width: 90%;
  		justify-content: center;
 		justify-self: center;
@@ -301,7 +301,7 @@ body{
 	}
 
 	.main-box p{
-		font-size: 2.1vh;
+		font-size: 2.3vh;
 	}
 
 	.box{
