@@ -273,9 +273,13 @@ body{
 
 	.box{
 		width: 90%;
+		display: grid;
 		justify-content: center;
 		justify-self: center;
 		justify-items: center;
+		margin-bottom: 50px;
+
+		padding: 3vh;
 	}
 
 	.box img{
@@ -304,23 +308,4 @@ body{
 		font-size: 2.3vh;
 	}
 
-	.box{
-		display: grid;
-		justify-content: center;
-		justify-self: center;
-		justify-items: center;
-		margin-bottom: 50px;
-		width: 95%;
-
-		margin-left: 4vw;
-	}
-
-	.box img{
-		width: 380px;
-		height: 230px;
-	}
-
-	.box p{
-		padding: 0px;
-	}
 }
