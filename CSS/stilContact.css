@@ -159,13 +159,14 @@ body{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+
+	margin-top: 100px;
 }
 
 iframe{
 	width: 99%;
 	height: 700px;
 	display: grid;
-	margin-bottom: -200px;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.30);
 }
 
@@ -192,12 +193,13 @@ iframe{
  	.map-container{
  		margin-top: 10vh;
  		margin-bottom: 10vh;
+ 		height: 40%;
  	}
 
  	iframe{
  		margin-top: 800px;
  		margin-bottom: 50px;
- 		height: 500px;
+ 		height: 40vh;
  	}
 
  	
