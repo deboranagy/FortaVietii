@@ -271,6 +271,11 @@ body{
 
 	.box img{
 		width: 95%;
+		padding: 3px;
+	}
+
+	.p-box{
+		padding: 3px;
 	}
 
 
