@@ -268,7 +268,7 @@ body{
 	}
 
 	.main-container{
-		margin-top: 5vh;
+		padding-top: 5vh;
 	}
 
 	.form-about-inputs{
@@ -310,6 +310,11 @@ body{
 
 	.main-box p{
 		font-size: 2.3vh;
+	}
+
+	.box img{
+		width: 380px;
+		height: 230px;
 	}
 
 }
