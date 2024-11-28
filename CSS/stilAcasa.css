@@ -119,6 +119,10 @@ body{
 @media screen and (max-width: 600px) {
 	.main-container{
 		width: 90%;
+		justify-content: center;
+		justify-self: center;
+		justify-items: center;
+
 	}
 
 	.citat{
