@@ -259,6 +259,8 @@ body{
  		justify-content: center;
 		justify-self: center;
 		justify-items: center;
+
+		text-align: center;
  	}
 
  	.top-despre h2{
@@ -269,9 +271,15 @@ body{
 		width: 90%;
 	}
 
+	.box{
+		width: 90%;
+		justify-content: center;
+		justify-self: center;
+		justify-items: center;
+	}
+
 	.box img{
 		width: 95%;
-		padding: 3px;
 	}
 
 	.p-box{
