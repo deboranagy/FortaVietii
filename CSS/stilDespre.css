@@ -49,6 +49,12 @@ body{
 
 .main-container{
 	font-family: Roboto Condensed, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-self: center;
+	justify-items: center;
+	align-items: center;
 
 	gap: 20px;
 }
@@ -59,6 +65,7 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	justify-self: center;
+	justify-items: center;
 	margin-top: -20px;
 
 	line-height: 1.8;
@@ -252,6 +259,11 @@ body{
  	.top-despre h2{
 		margin-left: 30%;
 	}
+
+	.form-about-inputs{
+		width: 90%;
+	}
+
 
 	#ref{
 		margin-left: 10px;
