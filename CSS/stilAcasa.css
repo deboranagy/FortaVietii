@@ -122,10 +122,13 @@ body{
 	}
 
 	.citat{
- 		padding-top: 0px;
- 		font-size: 15px;
+ 		padding-top: 15vh;
+ 		font-size: 2vh;
 
- 		margin-bottom: -25px;
+ 		margin-bottom: 10vh;
+ 		justify-content: center;
+		justify-self: center;
+		justify-items: center;
  	}
 
  	.citat h2{
@@ -139,6 +142,10 @@ body{
 
   #map {
   	height: 60vh;
+
+  	justify-content: center;
+		justify-self: center;
+		justify-items: center;
 
   	z-index: -1;
   }
