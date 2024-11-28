@@ -255,7 +255,10 @@ body{
  	.top-despre{
  		padding-top: 15vh;
  		font-size: 2vh;
- 		margin-left: 40px;
+		width: 90%;
+ 		justify-content: center;
+		justify-self: center;
+		justify-items: center;
  	}
 
  	.top-despre h2{
