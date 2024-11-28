@@ -176,6 +176,7 @@ iframe{
  	.contact-container{
  		display: grid;
  		margin-left: 4vw;
+ 		margin-bottom: 10vh;
  	}
 
  	.contact-left h3{
@@ -190,9 +191,13 @@ iframe{
  		margin-top: 100px;
  	}
 
+ 	.contact-inputs{
+ 		width: 90%;
+ 	}
+
  	.map-container{
- 		margin-top: 5vh;
- 		margin-bottom: 5vh;
+ 		margin-top: 10vh;
+ 		margin-bottom: 10vh;
  		height: 40%;
  	}
 
