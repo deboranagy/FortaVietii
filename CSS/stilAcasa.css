@@ -126,12 +126,13 @@ body{
 		justify-self: center;
 		justify-items: center;
 
-		padding: 3vw;
+		padding-right: 4vw;
+		margin-left: 4vw;
 
 	}
 
 	.citat{
- 		padding-top: 15vh;
+ 		padding-top: 17vh;
  		font-size: 2vh;
 
  		margin-bottom: 10vh;
