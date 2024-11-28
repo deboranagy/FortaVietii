@@ -285,7 +285,7 @@ body{
 	}
 
 	.main-box p{
-		font-size: 2vh;
+		font-size: 2.1vh;
 	}
 
 	.box{
@@ -294,6 +294,7 @@ body{
 		justify-self: center;
 		justify-items: center;
 		margin-bottom: 50px;
+		width: 95%;
 	}
 
 	.box img{
