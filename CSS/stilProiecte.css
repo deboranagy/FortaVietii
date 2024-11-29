@@ -85,9 +85,13 @@ body{
 @media screen and (max-width: 600px) {
  	.projects-list{
  		width: 85%;
+ 		padding: 3vw;
+ 		padding-top: 15vh;
  	}
+
  	.project{
  		display: grid;
- 		padding-left: 20px;
+
+ 		padding: 3vw;
  	}
 }
