@@ -163,7 +163,7 @@ body{
  	.project-text{
  		width: 85%;
  		padding: 3vw;
- 		margin-bottom: 50px;
+ 		margin-bottom: 90px;
  		padding-top: 130px;
  	}
 
@@ -192,7 +192,7 @@ body{
  		display: flex;
  		flex-direction: column;
 
- 		margin-top: 150px;
+ 		margin-top: 190px;
 
  		padding: 3vw;
 
@@ -204,8 +204,6 @@ body{
 
  	.gallery-container{
  		padding: 3vw;
- 		margin-top: 1px;
- 		margin-bottom: 1px;
  	}
 
  	.gallery{
