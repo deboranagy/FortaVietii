@@ -196,12 +196,12 @@ iframe{
  	}
 
  	.map-container{
- 		margin-bottom: 8vh;
+ 		margin-bottom: 5vh;
  		height: 40%;
  	}
 
  	iframe{
- 		margin-top: 500px;
+ 		margin-top: 550px;
  		margin-bottom: 50px;
  		height: 40vh;
  	}
