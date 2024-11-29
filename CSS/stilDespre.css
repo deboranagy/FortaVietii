@@ -292,7 +292,8 @@ body{
 	}
 
 	.box img{
-		width: 95%;
+		width: 100%;
+		margin: 3vw;
 	}
 
 	.p-box{
