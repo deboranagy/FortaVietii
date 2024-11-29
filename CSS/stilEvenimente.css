@@ -94,7 +94,7 @@ body{
 		align-items: center;
 		justify-content: center;
 		justify-self: center;
-		padding-top: 15vh;
+		padding-top: 20vh;
 		padding: 3vw;
 
 		line-height: 1.5;
@@ -104,6 +104,6 @@ body{
  	.event{
  		display: grid;
  		padding: 3vw;
- 		width: 90%;
+ 		width: 100%;
  	}
 }
