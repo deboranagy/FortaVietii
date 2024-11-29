@@ -94,8 +94,10 @@ body{
 		align-items: center;
 		justify-content: center;
 		justify-self: center;
-		padding-top: 20vh;
+		
 		padding: 3vw;
+
+		padding-top: 15vh;
 
 		line-height: 1.5;
 
