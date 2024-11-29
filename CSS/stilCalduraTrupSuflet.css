@@ -162,6 +162,9 @@ body{
 
  	.project-text{
  		width: 85%;
+ 		padding: 3vw;
+ 		margin-bottom: 50px;
+ 		padding-top: 130px;
  	}
 
  	.part1 .text{
@@ -190,10 +193,19 @@ body{
  		flex-direction: column;
 
  		margin-top: 150px;
+
+ 		padding: 3vw;
+
  	}
 
  	.links iframe{
  		width: 100%;
+ 	}
+
+ 	.gallery-container{
+ 		padding: 3vw;
+ 		margin-top: 1px;
+ 		margin-bottom: 1px;
  	}
 
  	.gallery{
@@ -201,9 +213,9 @@ body{
  	}
 
  	.gallery img:hover{
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
 	}
 
 }
