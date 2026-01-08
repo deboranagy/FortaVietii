@@ -196,6 +196,7 @@ iframe{
  	}
 
  	.map-container{
+		margin-top: 20vh;
  		margin-bottom: 5vh;
  		height: 40%;
  	}
@@ -208,3 +209,4 @@ iframe{
 
  	
 }
+
