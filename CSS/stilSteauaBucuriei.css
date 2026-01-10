@@ -173,13 +173,9 @@ body{
  		margin-left: 0px;
  	}
 
- 	.part1 {
-    flex-direction: column;
-  }
-
-  .pics {
-    order: -1;
-  }
+ 	.pics{
+ 		display: none;
+ 	}
 
  	.links{
  		width: 75%;
