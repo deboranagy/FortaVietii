@@ -172,16 +172,13 @@ iframe{
 
 @media screen and (max-width: 600px) {
 
-  body{
-    padding-top: 120px;
-  }
-	
   .contact-container{
     display: block;
     height: auto;         
     margin-bottom: 0;     
     margin-left: 0;
     padding: 40px 4vw;
+	padding-top: 120px;
   }
 
  .contact-left h3{
@@ -208,6 +205,7 @@ iframe{
     display: none;
   }
 }
+
 
 
 
