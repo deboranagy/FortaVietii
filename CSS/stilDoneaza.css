@@ -6,38 +6,48 @@
 	scroll-padding-top: 50px;
 }
 
+html, body{
+	min-height: 100vh;
+}
+
 body{
 	background: linear-gradient(180deg,#ffffff,#a6a6a6);
 	background-attachment: fixed;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+
+	display: flex;
+	flex-direction: column;
 }
 
-
 .imperial-script-regular {
-  font-family: "Imperial Script", cursive;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Imperial Script", cursive;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .roboto-condensed-main-container {
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+	font-family: "Roboto Condensed", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
 }
 
 .wraper{
 	width: 60%;
+
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	justify-self: center;
 	align-items: center;
+	justify-content: center;
 
-	padding-top: 200px;
-	padding-bottom: 212px;
+	margin: auto; 
+
+	padding-top: 120px;
+	padding-bottom: 120px;
 
 	line-height: 2.8;
+
+	flex: 1;
 }
 
 .wraper h2{
@@ -48,19 +58,22 @@ body{
 	font-family: Roboto Condensed;
 	font-size: 22px;
 	font-weight: 300;
-	
+}
+
+.footer{
+	margin-top: auto;
 }
 
 @media screen and (max-width: 600px) {
 	.wraper{
 		width: 80%;
 		font-size: 20px;
-		padding-bottom: 267px;
+
+		margin: auto;
 
 		padding: 4vw;
-
-		padding-top: 200px;
-		padding-bottom: 267px;
+		padding-top: 120px;
+		padding-bottom: 120px;
 	}
 
 	.cont{
