@@ -10,15 +10,15 @@
 body{
 	background: linear-gradient(180deg,#ffffff,#cccccc);
 	background-attachment: fixed;
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	font-family: Times New Roman;
 }
 
 .roboto-condensed-main-container {
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+	font-family: "Roboto Condensed", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
 }
 
 .project-text{
@@ -42,6 +42,7 @@ body{
 	gap: 50px;
 
 	margin-top: 30px;
+	width: 100%;
 }
 
 .pics{
@@ -49,15 +50,19 @@ body{
 	flex-direction: column;
 
 	align-items: flex-start;
+	flex-shrink: 0;
 }
 
 .pics img{
 	width: 600px;
+	max-width: 100%;
+	height: auto;
+
 	margin: 8px;
 	padding: 2px;
 	background-color: white;
 	box-shadow: 0 3px 15px rgba(0,0,0,0.30);
-} 
+}
 
 .pics img:hover{
 	box-shadow: 0 5px 20px rgba(0,0,0,1.0);
@@ -65,6 +70,11 @@ body{
 
 .project-text h3{
 	font-family: Roboto Condensed, sans-serif;
+}
+
+.part1 .text{
+	flex: 1;
+	min-width: 0;
 }
 
 .part1 .text h3{
@@ -83,7 +93,8 @@ body{
 
 .part2{
 	margin-top: 50px;
-	margin-left: -600px;
+	margin-left: 20px;
+	width: 100%;
 }
 
 .part2 h3{
@@ -94,106 +105,180 @@ body{
 
 .gallery-container{
 	width: 75%;
-	min-height: 100vh;
+	min-height: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	justify-self: center;
-	padding: 50px 8%;
 
-	margin-bottom: 50px;
+	padding: 45px 8%;
+
+	margin-top: 20px;
+	margin-bottom: 35px;
 }
 
 .gallery{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap: 30px;
+	width: 100%;
 }
 
 .gallery img{
 	width: 100%;
+	height: auto;
 	padding: 2px;
 	background-color: white;
 	box-shadow: 0 5px 20px rgba(0,0,0,0.7);
+	transition: 0.2s;
 }
 
 .gallery img:hover{
-	width: 270px;
-	margin: -7.5px;
+	transform: scale(1.03);
 	box-shadow: 0 5px 20px rgba(0,0,0,1.5);
 }
 
 .links{
-	width: 60%;
-	display: flex;
+	width: min(1400px, 75%);
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
 	justify-content: center;
-	justify-self: center;
-
-	gap: 50px;
+	justify-items: center;
+	align-items: start;
+	gap: 30px;
 
 	padding-bottom: 100px;
-	margin-top: -10px;
+	margin: 60px auto 0 auto;
 }
 
+.links iframe{
+	width: 100%;
+	max-width: 320px;
+	height: 420px;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+}
 
+@media screen and (max-width: 1400px){
 
-@media screen and (max-width: 600px) {
-	.intro h3{
-		font-size: 21px;
+	.project-text{
+		width: 75%;
 	}
 
- 	.project-text{
- 		width: 85%;
- 		padding: 4vw;
- 		margin-bottom: 90px;
- 		padding-top: 130px;
- 	}
+	.pics img{
+		width: 500px;
+	}
+}
 
- 	.part1 .text{
-	margin-top: -10px;
+@media screen and (max-width: 1100px){
+
+	.project-text{
+		width: 85%;
 	}
 
-	.part1 ul li{
-		margin-top: 40px;
+	.part1{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.pics{
+		align-items: center;
+		width: 100%;
+	}
+
+	.pics img{
+		width: 100%;
+		max-width: 650px;
+	}
+
+	.part1 .text{
+		width: 100%;
+	}
+
+	.gallery-container{
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 900px){
+
+	.links{
+		width: 90%;
+		grid-template-columns: repeat(auto-fit, minmax(260px, 320px));
+	}
+}
+
+@media screen and (max-width: 600px){
+
+	.project-text{
+		width: 85%;
+		padding: 4vw;
+		margin-bottom: 70px;
+		padding-top: 130px;
+	}
+
+	.part1{
+		gap: 20px;
+	}
+
+	.part1 .text{
+		margin-top: -10px;
 	}
 
 	.part2{
 		margin-left: 0px;
+		margin-top: 20px;
 	}
 
- 	.part2 h3{
- 		margin-left: 0px;
- 	}
+	.part2 h3{
+		margin-left: 0px;
+	}
 
- 	.pics{
- 		display: none;
- 	}
+	.pics{
+		display: none;
+	}
 
- 	.links{
- 		width: 75%;
- 		display: flex;
- 		flex-direction: column;
+	.links{
+		width: 90%;
+		grid-template-columns: 1fr;
 
- 		margin-top: 150px;
+		padding: 4vw;
+		gap: 30px;
 
- 		padding: 4vw;
- 	}
+		margin-top: 50px;
+		padding-bottom: 100px;
+	}
 
- 	.links iframe{
- 		width: 100%;
- 		margin-top: -50px;
- 	}
-
- 	.gallery-container{
- 		padding: 4vw;
- 	}
-
- 	
-
- 	.gallery img:hover{
+	.links iframe{
 		width: 100%;
-		margin: 0px;
-		padding: 0px;
+		max-width: 100%;
+		height: 500px;
+		margin-top: 0;
 	}
 
+	.gallery-container{
+		width: 90%;
+
+		padding: 4vw;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		min-height: auto;
+	}
+
+	.gallery{
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		grid-gap: 15px;
+	}
+
+	.gallery img:hover{
+		transform: none;
+	}
+}
+
+@media screen and (max-width: 380px){
+
+	.gallery{
+		grid-template-columns: 1fr;
+	}
 }
