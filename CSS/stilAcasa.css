@@ -9,9 +9,8 @@
 body{
 	background: linear-gradient(180deg,#ffffff,#a6a6a6);
 	background-attachment: fixed;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
-
 
 .imperial-script-regular {
   font-family: "Imperial Script", cursive;
@@ -51,16 +50,15 @@ body{
 	gap: 25px;
 
 	position: relative;
-  	animation: mymove;
-  	animation-duration: 3s;
+	animation: mymove 3s;
 
-  	font-style: oblique;
-  	font-size: 25px;
+	font-style: oblique;
+	font-size: 25px;
 
-  	word-spacing: 4px;
-  	letter-spacing: 1px;
+	word-spacing: 4px;
+	letter-spacing: 1px;
 
-  	font-family: Imperial Script, cursive;
+	font-family: Imperial Script, cursive;
 }
 
 @keyframes mymove {
@@ -73,25 +71,32 @@ body{
 }
 
 #map {     
-  height: 80vh;
+	height: 80vh;
 
-  display: flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	justify-self: center;
 	flex-direction: column;
 
 	margin-bottom: 50px;
+
+	border-radius: 20px;
+	overflow: hidden;
+
+	box-shadow:
+		0 12px 30px rgba(0,0,0,0.25),
+		0 4px 12px rgba(0,0,0,0.15);
 }
 
 .legend {
-  background: white;
-  font-family: Times New Roman;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  font-size: 18px;
-  line-height: 1.5;
+	background: rgba(255,255,255,0.9);
+	font-family: "Times New Roman", serif;
+	padding: 16px;
+	border-radius: 10px;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+	font-size: 17px;
+	line-height: 1.5;
 }
 
 .legend-item {
@@ -128,7 +133,6 @@ body{
 
 		padding-right: 4vw;
 		margin-left: 4vw;
-
 	}
 
 	.citat{
@@ -145,11 +149,6 @@ body{
 
  	.citat h2{
 		margin-left: 30%;
-	}
-
- 	@keyframes mymove {
-  		from {top: -200px;}
-  		to {top: 0px;}
 	}
 
   #map {
