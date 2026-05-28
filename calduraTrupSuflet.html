@@ -1,117 +1,265 @@
 <!DOCTYPE html>
-<html>
+<html lang="ro">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Forța Vieții | Căldură pentru trup și suflet</title>
+
 	<link rel="stylesheet" href="CSS/stilMenuBar.css">
 	<link rel="stylesheet" href="CSS/stilCalduraTrupSuflet.css">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poiret+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" type="text/css" href="lightbox.css">
+	<link rel="stylesheet" href="CSS/chatbot.css">
+	<link rel="stylesheet" href="lightbox.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 	<script src="java.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poiret+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 	<div class="menu_bar">
 		<img id="logo" src="pics/LogoFV.png" width="120px">
+
 		<ul>
 			<li><a href="index.html">Acasă</a></li>
 			<li><a href="despre.html">Despre noi</a></li>
 			<li><a href="evenimente.html">Evenimente</a></li>
-			<li><a href="proiecte.html" style="color: #cc4400;">Proiecte</a></li>
+			<li><a href="proiecte.html" style="color: #cc5200;">Proiecte</a></li>
 			<li><a href="parteneriate.html">Parteneriate</a></li>
-			<li><a href="echipa.html">Echipă</a></li>
+			<li><a href="departamente.html">Departamente</a></li>
 			<li><a href="doneaza.html">Donează</a></li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
+
 		<div id="menu_img">
 			<img src="pics/menu_icon.png" width="40px">
 		</div>
-		
 	</div>
+
 	<section id="menu" style="display:none">
 		<ul>
 			<li id="hidden_menu_li"><a href="index.html">Acasă</a></li>
 			<li id="hidden_menu_li"><a href="despre.html">Despre noi</a></li>
 			<li id="hidden_menu_li"><a href="evenimente.html">Evenimente</a></li>
-			<li id="hidden_menu_li"><a href="proiecte.html" style="color: #cc4400;">Proiecte</a></li>
+			<li id="hidden_menu_li"><a href="proiecte.html" style="color: #cc5200;">Proiecte</a></li>
 			<li id="hidden_menu_li"><a href="parteneriate.html">Parteneriate</a></li>
-			<li id="hidden_menu_li"><a href="echipa.html">Echipă</a></li>
+			<li id="hidden_menu_li"><a href="departamente.html">Departamente</a></li>
 			<li id="hidden_menu_li"><a href="doneaza.html">Donează</a></li>
 			<li id="hidden_menu_li"><a href="contact.html">Contact</a></li>
 			<li><img id="close" src="pics/close.png" width="20px"></li>
 		</ul>
 	</section>
 
-	<section class="project-text">
-		<div class="part1">
-			<div class="pics">
-				<a href="proiecte\p2_caldura_trup_suflet\3.jpg"  data-lightbox="models" data-title="Galerie">
-					<img src="proiecte\p2_caldura_trup_suflet\3.jpg">
-				</a>
+	<main class="project-page">
+
+		<section class="project-hero">
+			<h1>Căldură pentru trup și suflet</h1>
+
+			<div class="project-subtitle">
+				<span></span>
+				<h2>Sprijin practic pentru comunități vulnerabile dependente de lemn ca sursă de încălzire</h2>
+				<span></span>
 			</div>
-			<div class="text">
-				<h3>"Căldură pentru trup și suflet" este un proiect care a fost și continuă să fie de un real folos în viața comunităților dependente de lemn ca unică sursă de încălzire, aducându-le beneficii economice, sociale și de siguranță
+
+			<div class="project-quote">
+				<p>„Un ajutor simplu poate aduce căldură, siguranță și speranță în casele celor aflați în nevoie.”</p>
+			</div>
+		</section>
+
+		<section class="intro-text">
+			<p>„Căldură pentru trup și suflet” este un proiect care a fost și continuă să fie de un real folos în viața comunităților dependente de lemn ca unică sursă de încălzire, aducându-le beneficii economice, sociale și de siguranță.</p>
+		</section>
+
+		<section class="cards-section">
+
+			<div class="info-card">
+				<h2>Ce ne propunem</h2>
+
 				<ul>
-					<li>✓ Ajutor pentru persoanele vârstnice, singure sau pentru cele cu dizabilități.</li>
-					<li>✓ Promovarea spiritului de solidaritate și cooperare între membrii comunității, prin ajutorul reciproc.</li>
-					<li>✓ Procurarea și pregătirea lemnului de foc pentru familii sărace sau vulnerabile.</li>
+					<li><i class="fa-solid fa-person-cane"></i><span>Ajutor pentru persoanele vârstnice, singure sau pentru cele cu dizabilități.</span></li>
+					<li><i class="fa-solid fa-people-group"></i><span>Promovarea spiritului de solidaritate și cooperare între membrii comunității, prin ajutorul reciproc.</span></li>
+					<li><i class="fa-solid fa-tree"></i><span>Procurarea și pregătirea lemnului de foc pentru familii sărace sau vulnerabile.</span></li>
 				</ul>
-			</h3>
 			</div>
-		</div>
-				
-		<div class="part2">
-			<h3>Mulțumim donatorilor, sponsorilor și voluntarilor fără de care acest proiect nu ar fi existat!</h3>
-			<h3>Mulțumim fundației Kontaktmission pentru utilajele donate!</h3>
-			<h3>Mulțumim fundației Elpis pentru contribuția la sustenabilitatea proiectului!</h3>
-			<h3>Mulțumim voluntarilor pentru munca depusă în folosul semenilor!</h3>
-			<h3>Iar mai presus de toate, Îi mulțumim lui Dumnezeu!</h3>
-			<h3 style="font-weight: 450;">Soli Deo Gloria!</h3>
-		</div>
+
+			<div class="info-card middle-card">
+				<h2>Impact</h2>
+
+				<ul>
+					<li><i class="fa-solid fa-fire-flame-simple"></i><span>familii sprijinite cu lemn de foc pentru perioada rece</span></li>
+					<li><i class="fa-solid fa-house-chimney-user"></i><span>persoane vulnerabile ajutate prin sprijin concret</span></li>
+					<li><i class="fa-solid fa-handshake-angle"></i><span>voluntari implicați în activități practice de ajutorare</span></li>
+					<li><i class="fa-solid fa-heart-circle-check"></i><span>comunități încurajate prin solidaritate și cooperare</span></li>
+				</ul>
+			</div>
+
+			<div class="info-card">
+				<h2>Sprijin oferit</h2>
+
+				<ul>
+					<li><i class="fa-solid fa-truck"></i><span>transport și distribuire de lemne pentru familii aflate în dificultate</span></li>
+					<li><i class="fa-solid fa-hands-helping"></i><span>implicarea voluntarilor în pregătirea și organizarea ajutorului</span></li>
+					<li><i class="fa-solid fa-shield-heart"></i><span>susținerea siguranței și confortului minim în locuințe vulnerabile</span></li>
+				</ul>
+			</div>
+
+		</section>
+
+		<section class="activities-section">
+			<h2>Activitățile proiectului</h2>
+
+			<div class="activities-band">
+
+				<div class="activity-item">
+					<div class="activity-icon">
+						<i class="fa-solid fa-tree"></i>
+					</div>
+					<h3>Procurarea lemnului</h3>
+					<p>Proiectul sprijină procurarea lemnului de foc pentru familii sărace sau vulnerabile.</p>
+				</div>
+
+				<div class="activity-item">
+					<div class="activity-icon">
+						<i class="fa-solid fa-screwdriver-wrench"></i>
+					</div>
+					<h3>Pregătirea lemnului</h3>
+					<p>Voluntarii se implică în pregătirea lemnului pentru a putea fi folosit în gospodăriile sprijinite.</p>
+				</div>
+
+				<div class="activity-item">
+					<div class="activity-icon">
+						<i class="fa-solid fa-truck-ramp-box"></i>
+					</div>
+					<h3>Distribuire</h3>
+					<p>Ajutorul este direcționat către persoane vârstnice, singure, persoane cu dizabilități și familii vulnerabile.</p>
+				</div>
+
+				<div class="activity-item">
+					<div class="activity-icon">
+						<i class="fa-solid fa-people-carry-box"></i>
+					</div>
+					<h3>Voluntariat</h3>
+					<p>Proiectul promovează solidaritatea și cooperarea între membrii comunității prin ajutor reciproc.</p>
+				</div>
+
+				<div class="activity-item">
+					<div class="activity-icon">
+						<i class="fa-solid fa-fire-flame-curved"></i>
+					</div>
+					<h3>Căldură și siguranță</h3>
+					<p>Prin acest sprijin, familiile beneficiază de căldură, siguranță și ajutor practic în perioada rece.</p>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="vision-section">
+			<h2>Mulțumiri</h2>
+
+			<p>Mulțumim donatorilor, sponsorilor și voluntarilor fără de care acest proiect nu ar fi existat!</p>
+
+			<p>Mulțumim fundației Kontaktmission pentru utilajele donate!</p>
+
+			<p>Mulțumim fundației Elpis pentru contribuția la sustenabilitatea proiectului!</p>
+
+			<p>Mulțumim voluntarilor pentru munca depusă în folosul semenilor!</p>
+
+			<p>Iar mai presus de toate, Îi mulțumim lui Dumnezeu!</p>
+
+			<div class="coordinator">
+				<i class="fa-solid fa-cross"></i>
+				<span>Soli Deo Gloria!</span>
+			</div>
+		</section>
+
+	</main>
+
+	<section class="gallery-title">
+		<span></span>
+		<h2>GALERIE</h2>
+		<span></span>
 	</section>
+
 	<section class="gallery-container">
 		<div class="gallery">
-			<a href="proiecte\p2_caldura_trup_suflet\1.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p2_caldura_trup_suflet\1.jpg">
+
+			<a href="proiecte/p2_caldura_trup_suflet/1.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p2_caldura_trup_suflet/1.jpg">
 			</a>
-			<a href="proiecte\p2_caldura_trup_suflet\2.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p2_caldura_trup_suflet\2.jpg">
+
+			<a href="proiecte/p2_caldura_trup_suflet/2.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p2_caldura_trup_suflet/2.jpg">
 			</a>
-			<a href="proiecte\p2_caldura_trup_suflet\3.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p2_caldura_trup_suflet\3.jpg">
+
+			<a href="proiecte/p2_caldura_trup_suflet/3.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p2_caldura_trup_suflet/3.jpg">
 			</a>
-			<a href="proiecte\p2_caldura_trup_suflet\4.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p2_caldura_trup_suflet\4.jpg">
+
+			<a href="proiecte/p2_caldura_trup_suflet/4.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p2_caldura_trup_suflet/4.jpg">
 			</a>
-			<a href="proiecte\p2_caldura_trup_suflet\5.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p2_caldura_trup_suflet\5.jpg">
+
+			<a href="proiecte/p2_caldura_trup_suflet/5.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p2_caldura_trup_suflet/5.jpg">
 			</a>
-			<a href="proiecte\p2_caldura_trup_suflet\6.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p2_caldura_trup_suflet\6.jpg">
+
+			<a href="proiecte/p2_caldura_trup_suflet/6.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p2_caldura_trup_suflet/6.jpg">
 			</a>
-			<a href="proiecte\p2_caldura_trup_suflet\7.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p2_caldura_trup_suflet\7.jpg">
-			</a>		
+
+			<a href="proiecte/p2_caldura_trup_suflet/7.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p2_caldura_trup_suflet/7.jpg">
+			</a>
+
 		</div>
 	</section>
+
 	<script src="lightbox-plus-jquery.min.js"></script>
+
+	<section class="gallery-title">
+		<span></span>
+		<h2>DIN ONLINE</h2>
+		<span></span>
+	</section>
+
 	<section class="links">
-
-		<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02TYmHaoBiJAT33JGDNhFfSADENXyge7G6zVKazB4851WzBkryWcavx14zfHKXsAkZl%26id%3D61563282731443&show_text=true&width=500" width="500" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
+		<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02TYmHaoBiJAT33JGDNhFfSADENXyge7G6zVKazB4851WzBkryWcavx14zfHKXsAkZl%26id%3D61563282731443&show_text=true&width=500" width="500" height="420" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 	</section>
 
 	<div class="footer">
 		<img src="pics/LogoFV.png" width="120px">
 		<p>Copyright © 2024 Asociația Forța Vieții. Toate drepturile rezervate.</p>
-		
 	</div>
 
 	<script src="java.js"></script>
+
+	<div id="chatbot-button">
+		<i class="fa-duotone fa-solid fa-comments"></i>
+	</div>
+
+	<div id="chatbot-window" class="hidden">
+		<div id="chatbot-header">
+			<span></span>
+			<button id="chatbot-close">×</button>
+		</div>
+
+		<div id="chatbot-messages">
+			<div class="bot-message">
+				Bună! Sunt asistentul virtual al Asociației Forța Vieții.<br> Cu ce te pot ajuta?
+			</div>
+		</div>
+
+		<div id="chatbot-input-area">
+			<input id="chatbot-input" type="text" placeholder="Scrie un mesaj...">
+			<button id="chatbot-send">Trimite</button>
+		</div>
+	</div>
+
+	<script src="chatbot.js"></script>
 
 </body>
 </html>

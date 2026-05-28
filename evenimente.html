@@ -1,35 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="ro">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Forța Vieții | Evenimente</title>
+
 	<link rel="stylesheet" href="CSS/stilMenuBar.css">
 	<link rel="stylesheet" href="CSS/stilEvenimente.css">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poiret+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/chatbot.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 	<script src="java.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 	<div class="menu_bar">
 		<img id="logo" src="pics/LogoFV.png" width="120px">
+
 		<ul>
 			<li><a href="index.html">Acasă</a></li>
 			<li><a href="despre.html">Despre noi</a></li>
 			<li><a href="evenimente.html" style="color: #009999;">Evenimente</a></li>
 			<li><a href="proiecte.html">Proiecte</a></li>
 			<li><a href="parteneriate.html">Parteneriate</a></li>
-			<li><a href="echipa.html">Echipă</a></li>
+			<li><a href="departamente.html">Departamente</a></li>
 			<li><a href="doneaza.html">Donează</a></li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
+
 		<div id="menu_img">
 			<img src="pics/menu_icon.png" width="40px">
 		</div>
-		
 	</div>
+
 	<section id="menu" style="display:none">
 		<ul>
 			<li id="hidden_menu_li"><a href="index.html">Acasă</a></li>
@@ -37,231 +46,322 @@
 			<li id="hidden_menu_li"><a href="evenimente.html" style="color: #009999;">Evenimente</a></li>
 			<li id="hidden_menu_li"><a href="proiecte.html">Proiecte</a></li>
 			<li id="hidden_menu_li"><a href="parteneriate.html">Parteneriate</a></li>
-			<li id="hidden_menu_li"><a href="echipa.html">Echipă</a></li>
+			<li id="hidden_menu_li"><a href="departamente.html">Departamente</a></li>
 			<li id="hidden_menu_li"><a href="doneaza.html">Donează</a></li>
 			<li id="hidden_menu_li"><a href="contact.html">Contact</a></li>
 			<li><img id="close" src="pics/close.png" width="20px"></li>
 		</ul>
 	</section>
 
+	<section class="events-page">
 
-	<div class="events-list">
+		<div class="events-intro">
+			<h1>EVENIMENTE</h1>
+			<p>Descoperă evenimentele noastre și fii parte din momente care aduc schimbare și speranță.</p>
+		</div>
 
-		<section class="event">
-			<div class="event-pic">
-				<a href="iluziaLibertatiiGhelari2025.html">
-				<img src="evenimente\e12_iluzia_libertatii_2025\1.jpg">
-				</a>
-			</div>
-			<div class="event-info">
-				<a href="iluziaLibertatiiGhelari2025.html">
-				<h2 id="event-title">Tabără pentru tineret – Ghelari 2025</h2>
-				<h3>ILUZIA LIBERTĂȚII</h3>
-				<h5>✓ Timp de calitate</h5>
-				<h5>✓ Discuții sincere</h5>
-				<h5>✓ Experiență deosebită</h5>
-				</a>
-			</div>
-		</section>
+		<div class="events-carousel">
 
-		<section class="event">
-			<div class="event-pic">
-				<a href="tabaraFarcas2025.html">
-				<img src="evenimente/e11_tabara_farcas_2025/1.jpg">
-				</a>
-			</div>
-			<div class="event-info">
-				<a href="tabaraFarcas2025.html">
-				<h2 id="event-title">Tabără de zi – Fărcaș 2025</h2>
-				<h3>REGATUL PROBELOR DE FOC</h3>
-				<h5>✓ Multă voie bună</h5>
-				<h5>✓ Participanți în număr mare</h5>
-				<h5>✓ Final neașteptat</h5>
-				</a>
-			</div>
-		</section>
+			<button class="event-arrow left-arrow" onclick="scrollEvents(-1)">
+				<i class="fa-solid fa-chevron-left"></i>
+			</button>
 
-		<section class="event">
-			<div class="event-pic">
-				<a href="tabaraStoina2025.html">
-				<img src="evenimente/e10_tabara_stoina_2025/1.jpg">
-				</a>
-			</div>
-			<div class="event-info">
-				<a href="tabaraStoina2025.html">
-				<h2 id="event-title">Tabără de zi – Stoina 2025</h2>
-				<h3>REGATUL PROBELOR DE FOC</h3>
-				<h5>✓ Sesiuni speciale</h5>
-				<h5>✓ Lecții importante</h5>
-				<h5>✓ Zile de neuitat</h5>
-				</a>
-			</div>
-		</section>
+			<div class="events-list" id="eventsList">
 
-		<section class="event">
-			<div class="event-pic">
-				<a href="tabaraSancel2025.html">
-				<img src="evenimente/e9_tabara_sancel_2025/1.jpg">
-				</a>
-			</div>
-			<div class="event-info">
-				<a href="tabaraSancel2025.html">
-				<h2 id="event-title">Tabără de zi – Sâncel 2025</h2>
-				<h3>LABORATORUL TIMPULUI</h3>
-				<h5>✓ Timp de calitate</h5>
-				<h5>✓ Atmosferă plină de entuziasm și curiozitate</h5>
-				<h5>✓ Copii plini de interes și energie</h5>
-				</a>
-			</div>
-		</section>
+				<section class="event">
+					<a href="iluziaLibertatiiGhelari2025.html">
+						<div class="event-pic">
+							<img src="evenimente/e12_iluzia_libertatii_2025/1.jpg">
+							<div class="event-badge">2025</div>
+						</div>
 
-		<section class="event">
-			<div class="event-pic">
-				<a href="tabaraGhelari2025.html">
-				<img src="evenimente/e8_tabara_ghelari_2025/1.jpg">
-				</a>
-			</div>
-			<div class="event-info">
-				<a href="tabaraGhelari2025.html">
-				<h2 id="event-title">Tabără de zi – Ghelari 2025</h2>
-				<h3>EVANGHELIA ÎN CULORI</h3>
-				<h5>✓ Program bine structurat</h5>
-				<h5>✓ Participare activă încurajatoare</h5>
-				<h5>✓ Activități centrate pe speranță și bucurie veșnică</h5>
-				</a>
-			</div>
-		</section>
+						<div class="event-info">
+							<h2>Tabără pentru tineret – Ghelari 2025</h2>
+							<h3>ILUZIA LIBERTĂȚII</h3>
 
-		<section class="event">
-			<div class="event-pic">
-				<a href="tabaraStepSociRM2025.html">
-				<img src="evenimente/e7_tabara_stepsoci_RM_2025/1.jpg">
-				</a>
-			</div>
-			<div class="event-info">
-				<a href="tabaraStepSociRM2025.html">
-				<h2 id="event-title">Tabără de zi – Step-Soci – Republica Moldova 2025</h2>
-				<h3>AUTOSTRADA CERULUI</h3>
-				<h5>✓ Sesiuni pline de viață</h5>
-				<h5>✓ Participanți în număr mare</h5>
-				<h5>✓ Momente dulci într-o atmosferă de sărbătoare și prietenie</h5>
-				</a>
-			</div>
-		</section>
+							<p><i class="fa-solid fa-check"></i> Timp de calitate</p>
+							<p><i class="fa-solid fa-check"></i> Discuții sincere</p>
+							<p><i class="fa-solid fa-check"></i> Experiență deosebită</p>
 
-		<section class="event">
-			<div class="event-pic">
-				<a href="tabaraPiatraRM2025.html">
-				<img src="evenimente/e6_tabara_piatra_RM_2025/1.jpg">
-				</a>
-			</div>
-			<div class="event-info">
-				<a href="tabaraPiatraRM2025.html">
-				<h2 id="event-title">Tabără de zi – Piatra – Republica Moldova 2025</h2>
-				<h3>AUTOSTRADA CERULUI</h3>
-				<h5>✓ Zile pline de energie, învățătură și distracție</h5>
-				<h5>✓ Adevăruri esențiale</h5>
-				<h5>✓ Multe surprize</h5>
-				</a>
-			</div>
-		</section>
+							<span class="details-btn">Detalii <i class="fa-solid fa-arrow-right"></i></span>
+						</div>
+					</a>
+				</section>
 
-		<section class="event">
-			<div class="event-pic">
-				<a href="tabaraBratatel2025.html">
-				<img src="evenimente/e5_tabara_bratatel_2025/7.jpg">
-				</a>
-			</div>
-			<div class="event-info">
-				<a href="tabaraBratatel2025.html">
-				<h2 id="event-title">Tabără de zi – Brătățel 2025</h2>
-				<h3>FII CEA MAI BUNA VERSIUNE A TA</h3>
-				<h5>✓ Experiențe de neuitat</h5>
-				<h5>✓ Cadru de învățare, prietenie și creștere</h5>
-				<h5>✓ Săptămână intensă de provocări</h5>
-				</a>
-			</div>
-		</section>
+				<section class="event">
+					<a href="tabaraFarcas2025.html">
+						<div class="event-pic">
+							<img src="evenimente/e11_tabara_farcas_2025/1.jpg">
+							<div class="event-badge">2025</div>
+						</div>
 
-		<section class="event">
-			<div class="event-pic">
-				<a href="tabaraFarcas2024.html">
-				<img src="evenimente/e4_tabata_oltenia_2024/1.jpg">
-				</a>
-			</div>
-			<div class="event-info">
-				<a href="tabaraFarcas2024.html">
-				<h2 id="event-title">Tabără de zi – Fărcaș 2024</h2>
-				<h3>AUTOSTRADA CERULUI</h3>
-				<h5>✓ Timp de calitate</h5>
-				<h5>✓ Participanți în număr mare</h5>
-				<h5>✓ Entuziasm în participarea la activitățile taberei</h5>
-				</a>
-			</div>
-		</section>
+						<div class="event-info">
+							<h2>Tabără de zi – Fărcaș 2025</h2>
+							<h3>REGATUL PROBELOR DE FOC</h3>
 
-		<section class="event">
-			<div class="event-pic">
-				<a href="tabaraSancel2024.html">
-				<img src="evenimente/e3_tabara_sancel_2024/1.jpg">
-				</a>
-			</div>
-			<div class="event-info">
-				<a href="tabaraSancel2024.html">
-				<h2 id="event-title">Tabără de zi – Sâncel 2024</h2>
-				<h3>MAREA OLIMPIADĂ PENTRU TOȚI</h3>
-				<h5>✓ Timp de calitate</h5>
-				<h5>✓ Prezență bună</h5>
-				<h5>✓ Rezultate neașteptate</h5>
-				</a>
-			</div>
-		</section>
+							<p><i class="fa-solid fa-check"></i> Multă voie bună</p>
+							<p><i class="fa-solid fa-check"></i> Participanți în număr mare</p>
+							<p><i class="fa-solid fa-check"></i> Final neașteptat</p>
 
-		<section class="event">
-			<div class="event-pic">
-				<a href="tabaraPiatra2024.html">
-				<img src="evenimente/e2_tabara_fotbal_rep_moldova_2024/2.jpg">
-				</a>
-			</div>
-			<div class="event-info">
-				<a href="tabaraPiatra2024.html">
-				<h2 id="event-title">Tabără de zi – Piatra RM 2024</h2>
-				<h3>FOTBAL PENTRU TOȚI </h3>
-				<h5>✓ Tabără reușită </h5>
-				<h5>✓ Participanți mulțumiți, bucurie, entuziasm</h5>
-				<h5>✓ Amintiri de neuitat</h5>
-				</a>
-			</div>
-		</section>
+							<span class="details-btn">Detalii <i class="fa-solid fa-arrow-right"></i></span>
+						</div>
+					</a>
+				</section>
 
-		<section class="event">
-			<div class="event-pic">
-				<a href="tabaraGhelari2024.html">
-				<img src="evenimente/e1_tabara_ghelari_2024/2.jpg">
-				</a>
-			</div>
-			<div class="event-info">
-				<a href="tabaraGhelari2024.html">
-				<h2 id="event-title">Tabără de zi – Ghelari 2024</h2>
-				<h3>CAMPIONII LUI ISUS</h3>
-				<h5>✓ Timp de calitate</h5>
-				<h5>✓ Sănătate prin jocuri și activități fizice</h5>
-				<h5>✓ Dezvoltare socială și emoțională prin interacțiunea cu alți copii</h5>
-				</a>
-			</div>
-		</section>
-		
-	</div>
-	
+				<section class="event">
+					<a href="tabaraStoina2025.html">
+						<div class="event-pic">
+							<img src="evenimente/e10_tabara_stoina_2025/1.jpg">
+							<div class="event-badge">2025</div>
+						</div>
 
+						<div class="event-info">
+						<h2>Tabără de zi – Stoina 2025</h2>
+							<h3>REGATUL PROBELOR DE FOC</h3>
+
+							<p><i class="fa-solid fa-check"></i></i> Sesiuni speciale</p>
+							<p><i class="fa-solid fa-check"></i> Lecții importante</p>
+							<p><i class="fa-solid fa-check"></i> Zile de neuitat</p>
+
+							<span class="details-btn">Detalii <i class="fa-solid fa-arrow-right"></i></span>
+						</div>
+					</a>
+				</section>
+
+				<section class="event">
+					<a href="tabaraSancel2025.html">
+						<div class="event-pic">
+							<img src="evenimente/e9_tabara_sancel_2025/1.jpg">
+							<div class="event-badge">2025</div>
+						</div>
+
+						<div class="event-info">
+							<h2>Tabără de zi – Sâncel 2025</h2>
+							<h3>LABORATORUL TIMPULUI</h3>
+
+							<p><i class="fa-solid fa-check"></i> Timp de calitate</p>
+							<p><i class="fa-solid fa-check"></i> Atmosferă plină de entuziasm și curiozitate</p>
+							<p><i class="fa-solid fa-check"></i> Copii plini de interes și energie</p>
+
+							<span class="details-btn">Detalii <i class="fa-solid fa-arrow-right"></i></span>
+						</div>
+					</a>
+				</section>
+
+				<section class="event">
+					<a href="tabaraGhelari2025.html">
+						<div class="event-pic">
+							<img src="evenimente/e8_tabara_ghelari_2025/1.jpg">
+							<div class="event-badge">2025</div>
+						</div>
+
+						<div class="event-info">
+							<h2>Tabără de zi – Ghelari 2025</h2>
+							<h3>EVANGHELIA ÎN CULORI</h3>
+
+							<p><i class="fa-solid fa-check"></i> Program bine structurat</p>
+							<p><i class="fa-solid fa-check"></i> Participare activă încurajatoare</p>
+							<p><i class="fa-solid fa-check"></i> Activități centrate pe speranță și bucurie veșnică</p>
+
+							<span class="details-btn">Detalii <i class="fa-solid fa-arrow-right"></i></span>
+						</div>
+					</a>
+				</section>
+
+				<section class="event">
+					<a href="tabaraStepSociRM2025.html">
+						<div class="event-pic">
+							<img src="evenimente/e7_tabara_stepsoci_RM_2025/1.jpg">
+							<div class="event-badge">2025</div>
+						</div>
+
+						<div class="event-info">
+							<h2>Tabără de zi – Step-Soci – Republica Moldova 2025</h2>
+							<h3>AUTOSTRADA CERULUI</h3>
+
+							<p><i class="fa-solid fa-check"></i> Sesiuni pline de viață</p>
+							<p><i class="fa-solid fa-check"></i> Participanți în număr mare</p>
+							<p><i class="fa-solid fa-check"></i> Momente dulci într-o atmosferă de sărbătoare și prietenie</p>
+
+							<span class="details-btn">Detalii <i class="fa-solid fa-arrow-right"></i></span>
+						</div>
+					</a>
+				</section>
+
+				<section class="event">
+					<a href="tabaraPiatraRM2025.html">
+						<div class="event-pic">
+							<img src="evenimente/e6_tabara_piatra_RM_2025/1.jpg">
+							<div class="event-badge">2025</div>
+						</div>
+
+						<div class="event-info">
+							<h2>Tabără de zi – Piatra – Republica Moldova 2025</h2>
+							<h3>AUTOSTRADA CERULUI</h3>
+
+							<p><i class="fa-solid fa-check"></i> Zile pline de energie, învățătură și distracție</p>
+							<p><i class="fa-solid fa-check"></i> Adevăruri esențiale</p>
+							<p><i class="fa-solid fa-check"></i> Multe surprize</p>
+
+							<span class="details-btn">Detalii <i class="fa-solid fa-arrow-right"></i></span>
+						</div>
+					</a>
+				</section>
+
+				<section class="event">
+					<a href="tabaraBratatel2025.html">
+						<div class="event-pic">
+							<img src="evenimente/e5_tabara_bratatel_2025/7.jpg">
+							<div class="event-badge">2025</div>
+						</div>
+
+						<div class="event-info">
+							<h2>Tabără de zi – Brătățel 2025</h2>
+							<h3>FII CEA MAI BUNĂ VERSIUNE A TA</h3>
+
+							<p><i class="fa-solid fa-check"></i> Experiențe de neuitat</p>
+							<p><i class="fa-solid fa-check"></i> Cadru de învățare, prietenie și creștere</p>
+							<p><i class="fa-solid fa-check"></i> Săptămână intensă de provocări</p>
+
+							<span class="details-btn">Detalii <i class="fa-solid fa-arrow-right"></i></span>
+						</div>
+					</a>
+				</section>
+
+				<section class="event">
+					<a href="tabaraFarcas2024.html">
+						<div class="event-pic">
+							<img src="evenimente/e4_tabata_oltenia_2024/1.jpg">
+							<div class="event-badge">2024</div>
+						</div>
+
+						<div class="event-info">
+							<h2>Tabără de zi – Fărcaș 2024</h2>
+							<h3>AUTOSTRADA CERULUI</h3>
+
+							<p><i class="fa-solid fa-check"></i> Timp de calitate</p>
+							<p><i class="fa-solid fa-check"></i> Participanți în număr mare</p>
+							<p><i class="fa-solid fa-check"></i> Entuziasm în participarea la activitățile taberei</p>
+
+							<span class="details-btn">Detalii <i class="fa-solid fa-arrow-right"></i></span>
+						</div>
+					</a>
+				</section>
+
+				<section class="event">
+					<a href="tabaraSancel2024.html">
+						<div class="event-pic">
+							<img src="evenimente/e3_tabara_sancel_2024/1.jpg">
+							<div class="event-badge">2024</div>
+						</div>
+
+						<div class="event-info">
+							<h2>Tabără de zi – Sâncel 2024</h2>
+							<h3>MAREA OLIMPIADĂ PENTRU TOȚI</h3>
+
+							<p><i class="fa-solid fa-check"></i> Timp de calitate</p>
+							<p><i class="fa-solid fa-check"></i> Prezență bună</p>
+							<p><i class="fa-solid fa-check"></i> Rezultate neașteptate</p>
+
+							<span class="details-btn">Detalii <i class="fa-solid fa-arrow-right"></i></span>
+						</div>
+					</a>
+				</section>
+
+				<section class="event">
+					<a href="tabaraPiatra2024.html">
+						<div class="event-pic">
+							<img src="evenimente/e2_tabara_fotbal_rep_moldova_2024/2.jpg">
+							<div class="event-badge">2024</div>
+						</div>
+
+						<div class="event-info">
+							<h2>Tabără de zi – Piatra RM 2024</h2>
+							<h3>FOTBAL PENTRU TOȚI</h3>
+
+							<p><i class="fa-solid fa-check"></i> Tabără reușită</p>
+							<p><i class="fa-solid fa-check"></i> Participanți mulțumiți, bucurie, entuziasm</p>
+							<p><i class="fa-solid fa-check"></i> Amintiri de neuitat</p>
+
+							<span class="details-btn">Detalii <i class="fa-solid fa-arrow-right"></i></span>
+						</div>
+					</a>
+				</section>
+
+				<section class="event">
+					<a href="tabaraGhelari2024.html">
+						<div class="event-pic">
+							<img src="evenimente/e1_tabara_ghelari_2024/2.jpg">
+							<div class="event-badge">2024</div>
+						</div>
+
+						<div class="event-info">
+							<h2>Tabără de zi – Ghelari 2024</h2>
+							<h3>CAMPIONII LUI ISUS</h3>
+
+							<p><i class="fa-solid fa-check"></i> Timp de calitate</p>
+							<p><i class="fa-solid fa-check"></i> Sănătate prin jocuri și activități fizice</p>
+							<p><i class="fa-solid fa-check"></i> Dezvoltare socială și emoțională prin interacțiunea cu alți copii</p>
+
+							<span class="details-btn">Detalii <i class="fa-solid fa-arrow-right"></i></span>
+						</div>
+					</a>
+				</section>
+
+			</div>
+
+			<button class="event-arrow right-arrow" onclick="scrollEvents(1)">
+				<i class="fa-solid fa-chevron-right"></i>
+			</button>
+
+		</div>
+
+	</section>
 
 	<div class="footer">
 		<img src="pics/LogoFV.png" width="120px">
 		<p>Copyright © 2024 Asociația Forța Vieții. Toate drepturile rezervate.</p>
-		
 	</div>
 
+	<script>
+		function scrollEvents(direction){
+			const list = document.getElementById("eventsList");
+			const card = list.querySelector(".event");
+			const gap = 28;
+			const scrollAmount = card.offsetWidth + gap;
+
+			list.scrollBy({
+				left: direction * scrollAmount,
+				behavior: "smooth"
+			});
+		}
+	</script>
+
 	<script src="java.js"></script>
+
+	<div id="chatbot-button">
+		<i class="fa-duotone fa-solid fa-comments"></i>
+	</div>
+
+	<div id="chatbot-window" class="hidden">
+		<div id="chatbot-header">
+			<span></span>
+			<button id="chatbot-close">×</button>
+		</div>
+
+		<div id="chatbot-messages">
+			<div class="bot-message">
+				Bună! Sunt asistentul virtual al Asociației Forța Vieții.<br> Cu ce te pot ajuta?
+			</div>
+		</div>
+
+		<div id="chatbot-input-area">
+			<input id="chatbot-input" type="text" placeholder="Scrie un mesaj...">
+			<button id="chatbot-send">Trimite</button>
+		</div>
+	</div>
+
+	<script src="chatbot.js"></script>
 
 </body>
 </html>

@@ -4,33 +4,44 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Forța Vieții | Acasă</title>
+
 	<link rel="stylesheet" href="CSS/stilMenuBar.css">
 	<link rel="stylesheet" href="CSS/stilAcasa.css">
+	<link rel="stylesheet" href="CSS/chatbot.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 	<script src="java.js"></script>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poiret+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	
 </head>
+
 <body>
 
 	<div class="menu_bar">
 		<img id="logo" src="pics/LogoFV.png" width="120px">
+
 		<ul>
 			<li><a href="index.html" style="color: #009999;">Acasă</a></li>
 			<li><a href="despre.html">Despre noi</a></li>
 			<li><a href="evenimente.html">Evenimente</a></li>
 			<li><a href="proiecte.html">Proiecte</a></li>
 			<li><a href="parteneriate.html">Parteneriate</a></li>
-			<li><a href="echipa.html">Echipă</a></li>
+			<li><a href="departamente.html">Departamente</a></li>
 			<li><a href="doneaza.html">Donează</a></li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
+
 		<div id="menu_img">
 			<img src="pics/menu_icon.png" width="40px">
 		</div>
-		
 	</div>
+
 	<section id="menu" style="display:none">
 		<ul>
 			<li id="hidden_menu_li"><a href="index.html" style="color: #009999;">Acasă</a></li>
@@ -38,117 +49,229 @@
 			<li id="hidden_menu_li"><a href="evenimente.html">Evenimente</a></li>
 			<li id="hidden_menu_li"><a href="proiecte.html">Proiecte</a></li>
 			<li id="hidden_menu_li"><a href="parteneriate.html">Parteneriate</a></li>
-			<li id="hidden_menu_li"><a href="echipa.html">Echipă</a></li>
+			<li id="hidden_menu_li"><a href="departamente.html">Departamente</a></li>
 			<li id="hidden_menu_li"><a href="doneaza.html">Donează</a></li>
 			<li id="hidden_menu_li"><a href="contact.html">Contact</a></li>
 			<li><img id="close" src="pics/close.png" width="20px"></li>
 		</ul>
 	</section>
 
-	<div class="main-container">
-		<div class="citat">
-			<h1>Sunt doar un om, dar sunt cineva; nu pot face totul, dar pot face ceva; nu voi refuza să fac acel lucru pe care pot să-l fac!</h1>
+	<main class="home-page">
+
+		<section class="hero-quote">
+			<h1>
+				Sunt doar un om, dar sunt cineva;
+				nu pot face totul, dar pot face ceva;
+				nu voi refuza să fac acel lucru pe care pot să-l fac!
+			</h1>
+
 			<h2>Helen Adams Keller</h2>
-		</div>
+		</section>
 
+		<section class="intro-section">
+			<p>
+				Asociația Forța Vieții reunește oameni motivați de credință, compasiune și responsabilitate, implicați în sprijinirea persoanelor vulnerabile și în dezvoltarea comunităților uitate prin proiecte educaționale, sociale, culturale, umanitare și de sprijin moral-spiritual.
+			</p>
+
+			<a href="despre.html">Despre noi <i class="fa-solid fa-arrow-right"></i></a>
+		</section>
+
+		<section class="quick-links">
+
+			<a href="evenimente.html" class="quick-card">
+				<i class="fa-regular fa-calendar-days"></i>
+				<h3>Evenimente</h3>
+				<p>Activități care încurajează și aduc bucurie în comunități.</p>
+				<span>Vezi evenimentele <i class="fa-solid fa-arrow-right"></i></span>
+			</a>
+
+			<a href="proiecte.html" class="quick-card">
+				<i class="fa-solid fa-hands-holding-child"></i>
+				<h3>Proiecte</h3>
+				<p>Proiecte prin care aducem sprijin și speranță.</p>
+				<span>Vezi proiectele <i class="fa-solid fa-arrow-right"></i></span>
+			</a>
+
+			<a href="departamente.html" class="quick-card">
+				<i class="fa-solid fa-sitemap"></i>
+				<h3>Departamente</h3>
+				<p>Echipe dedicate diferitelor arii de lucru ale asociației.</p>
+				<span>Vezi departamentele <i class="fa-solid fa-arrow-right"></i></span>
+			</a>
+
+			<a href="parteneriate.html" class="quick-card">
+				<i class="fa-regular fa-handshake"></i>
+				<h3>Parteneriate</h3>
+				<p>Împreună putem face mai mult.</p>
+				<span>Vezi partenerii <i class="fa-solid fa-arrow-right"></i></span>
+			</a>
+
+		</section>
+
+		<section class="donate-section">
+			<div class="donate-icon">
+				<i class="fa-solid fa-hand-holding-heart"></i>
+			</div>
+
+			<div class="donate-text">
+				<h2>Fiecare donație aduce speranță.</h2>
+				<p>Cu ajutorul tău putem continua să fim alături de cei care au nevoie.</p>
+			</div>
+
+			<a href="doneaza.html">Donează acum</a>
+		</section>
+
+		<section class="contact-section">
+			<a href="contact.html" class="contact-grid">
+				<div>
+					<i class="fa-solid fa-phone"></i>
+					<h3>Telefon</h3>
+					<p>0769 212 674 - RO</p>
+					<p>+43 676 672 2485 - AT</p>
+				</div>
+
+				<div>
+					<i class="fa-solid fa-envelope"></i>
+					<h3>Email</h3>
+					<p>asociatiafortavietii@gmail.com</p>
+				</div>
+
+				<div>
+					<i class="fa-brands fa-facebook"></i>
+					<h3>Facebook</h3>
+					<p>Asociația Forța Vieții</p>
+				</div>
+			</a>
+		</section>
+
+	</main>
+
+	<section class="map-section">
 		<div id="map"></div>
+	</section>
 
-	    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-	    <script>
-	        const map = L.map('map');
+	<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-	        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-	        }).addTo(map);
+	<script>
+		const map = L.map('map');
 
-	        const redIcon = L.icon({
-	            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
-	            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-	            iconSize: [18, 30],
-	            iconAnchor: [10, 33],
-	            popupAnchor: [1, -30],
-	            shadowSize: [33, 33]
-	        });
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
 
-	        const blueIcon = L.icon({
-	            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
-	            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-	            iconSize: [18, 30],
-	            iconAnchor: [10, 33],
-	            popupAnchor: [1, -30],
-	            shadowSize: [33, 33]
-	        });
+		const redIcon = L.icon({
+			iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+			shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+			iconSize: [18, 30],
+			iconAnchor: [10, 33],
+			popupAnchor: [1, -30],
+			shadowSize: [33, 33]
+		});
 
-	        // Locații cu pinuri roșii
-	        const redLocations = [
-	            { lat: 45.6713, lng: 22.7160, title: "Ghelari, Hunedoara" },
-	            { lat: 46.1614, lng: 23.6040, title: "Sâncel, Alba" },
-	            { lat: 44.1753, lng: 23.4382, title: "Fărcaș, Dolj" },
-	            { lat: 44.2512, lng: 23.7167, title: "Moflești, Dolj" },
-	            { lat: 44.8230, lng: 23.6480, title: "Stoina, Gorj" },
-	            { lat: 45.4155, lng: 22.2216, title: "Caransebeș, Caraș-Severin" },
-	            { lat: 44.4533, lng: 26.0917, title: "București, Sector 1" },
-	            { lat: 45.1565, lng: 26.6530, title: "Cârligul Mare, Buzău" },
-	            { lat: 47.9493, lng: 26.0710, title: "Siret, Suceava" },
-	            { lat: 44.9967, lng: 24.3043, title: "Băbeni, Vâlcea" },
-	            { lat: 45.7983, lng: 24.1256, title: "Sibiu, Sibiu" },
-	            { lat: 46.1866, lng: 21.3123, title: "Arad, Arad" },
-	            { lat: 47.2529, lng: 28.9309, title: "Piatra, Raion Orhei, Republica Moldova" }
-	        ];
+		const blueIcon = L.icon({
+			iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+			shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+			iconSize: [18, 30],
+			iconAnchor: [10, 33],
+			popupAnchor: [1, -30],
+			shadowSize: [33, 33]
+		});
 
-	        // Locații cu pinuri albastre
-	        const blueLocations = [
-	            { lat: 48.2915, lng: 25.9403, title: "Cernăuți, Ucraina" },
-	            { lat: 45.4500, lng: 28.2800, title: "Reni, Ucraina" }
-	        ];
+		const redLocations = [
+			{ lat: 45.6713, lng: 22.7160, title: "Ghelari, Hunedoara" },
+			{ lat: 46.1614, lng: 23.6040, title: "Sâncel, Alba" },
+			{ lat: 44.1753, lng: 23.4382, title: "Fărcaș, Dolj" },
+			{ lat: 44.2512, lng: 23.7167, title: "Moflești, Dolj" },
+			{ lat: 44.8230, lng: 23.6480, title: "Stoina, Gorj" },
+			{ lat: 45.4155, lng: 22.2216, title: "Caransebeș, Caraș-Severin" },
+			{ lat: 44.4533, lng: 26.0917, title: "București, Sector 1" },
+			{ lat: 45.1565, lng: 26.6530, title: "Cârligul Mare, Buzău" },
+			{ lat: 47.9493, lng: 26.0710, title: "Siret, Suceava" },
+			{ lat: 44.9967, lng: 24.3043, title: "Băbeni, Vâlcea" },
+			{ lat: 45.7983, lng: 24.1256, title: "Sibiu, Sibiu" },
+			{ lat: 46.1866, lng: 21.3123, title: "Arad, Arad" },
+			{ lat: 47.2529, lng: 28.9309, title: "Piatra, Raion Orhei, Republica Moldova" }
+		];
 
-	        const bounds = L.latLngBounds([]);
+		const blueLocations = [
+			{ lat: 48.2915, lng: 25.9403, title: "Cernăuți, Ucraina" },
+			{ lat: 45.4500, lng: 28.2800, title: "Reni, Ucraina" }
+		];
 
-	        redLocations.forEach(location => {
-	            L.marker([location.lat, location.lng], { icon: redIcon })
-	                .addTo(map)
-	                .bindTooltip(location.title, { permanent: false, direction: 'right' });
-	            bounds.extend([location.lat, location.lng]);
-	        });
+		const bounds = L.latLngBounds([]);
 
-	        // Adaugă pinuri albastre
-	        blueLocations.forEach(location => {
-	            L.marker([location.lat, location.lng], { icon: blueIcon })
-	                .addTo(map)
-	                .bindTooltip(location.title, { permanent: false, direction: 'right' });
-	            bounds.extend([location.lat, location.lng]);
-	        });
+		redLocations.forEach(location => {
+			L.marker([location.lat, location.lng], { icon: redIcon })
+				.addTo(map)
+				.bindTooltip(location.title, { permanent: false, direction: 'right' });
 
-	        map.fitBounds(bounds);
+			bounds.extend([location.lat, location.lng]);
+		});
 
-	        const legend = L.control({ position: 'bottomright' });
-	        legend.onAdd = function () {
-	            const div = L.DomUtil.create('div', 'legend');
-	            div.innerHTML = `
-	                <div class="legend-item">
-	                    <div class="legend-icon red-pin"></div>
-	                    <span>Sedii secundare</span>
-	                </div>
-	                <div class="legend-item">
-	                    <div class="legend-icon blue-pin"></div>
-	                    <span>Proiecte</span>
-	                </div>
-	            `;
-	            return div;
-	        };
-	        legend.addTo(map);
-	    </script>
-	</div>
+		blueLocations.forEach(location => {
+			L.marker([location.lat, location.lng], { icon: blueIcon })
+				.addTo(map)
+				.bindTooltip(location.title, { permanent: false, direction: 'right' });
 
-		
+			bounds.extend([location.lat, location.lng]);
+		});
+
+		map.fitBounds(bounds);
+
+		setTimeout(function(){
+			map.invalidateSize();
+			map.fitBounds(bounds);
+		}, 300);
+
+		const legend = L.control({ position: 'bottomright' });
+
+		legend.onAdd = function () {
+			const div = L.DomUtil.create('div', 'legend');
+			div.innerHTML = `
+				<div class="legend-item">
+					<div class="legend-icon red-pin"></div>
+					<span>Sedii secundare</span>
+				</div>
+				<div class="legend-item">
+					<div class="legend-icon blue-pin"></div>
+					<span>Proiecte</span>
+				</div>
+			`;
+
+			return div;
+		};
+
+		legend.addTo(map);
+	</script>
 
 	<div class="footer">
 		<img src="pics/LogoFV.png" width="120px">
 		<p>Copyright © 2024 Asociația Forța Vieții. Toate drepturile rezervate.</p>
-		
 	</div>
 
-	<script src="java.js"></script>
+	<div id="chatbot-button">
+		<i class="fa-duotone fa-solid fa-comments"></i>
+	</div>
+
+	<div id="chatbot-window" class="hidden">
+		<div id="chatbot-header">
+			<span></span>
+			<button id="chatbot-close">×</button>
+		</div>
+
+		<div id="chatbot-messages">
+			<div class="bot-message">
+				Bună! Sunt asistentul virtual al Asociației Forța Vieții.<br> Cu ce te pot ajuta?
+			</div>
+		</div>
+
+		<div id="chatbot-input-area">
+			<input id="chatbot-input" type="text" placeholder="Scrie un mesaj...">
+			<button id="chatbot-send">Trimite</button>
+		</div>
+	</div>
+
+	<script src="chatbot.js"></script>
 
 </body>
 </html>

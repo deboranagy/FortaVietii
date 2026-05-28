@@ -1,136 +1,292 @@
 <!DOCTYPE html>
-<html>
+<html lang="ro">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Forța Vieții | Zâmbet în prag</title>
+	<title>Forța Vieții | Zâmbet în Prag</title>
+
 	<link rel="stylesheet" href="CSS/stilMenuBar.css">
 	<link rel="stylesheet" href="CSS/stilZambetInPrag.css">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poiret+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" type="text/css" href="lightbox.css">
+	<link rel="stylesheet" href="CSS/chatbot.css">
+	<link rel="stylesheet" href="lightbox.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 	<script src="java.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poiret+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 	<div class="menu_bar">
 		<img id="logo" src="pics/LogoFV.png" width="120px">
+
 		<ul>
 			<li><a href="index.html">Acasă</a></li>
 			<li><a href="despre.html">Despre noi</a></li>
 			<li><a href="evenimente.html">Evenimente</a></li>
-			<li><a href="proiecte.html" style="color: #cc4400;">Proiecte</a></li>
+			<li><a href="proiecte.html" style="color: #cc5200;">Proiecte</a></li>
 			<li><a href="parteneriate.html">Parteneriate</a></li>
-			<li><a href="echipa.html">Echipă</a></li>
+			<li><a href="departamente.html">Departamente</a></li>
 			<li><a href="doneaza.html">Donează</a></li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
+
 		<div id="menu_img">
 			<img src="pics/menu_icon.png" width="40px">
 		</div>
-		
 	</div>
+
 	<section id="menu" style="display:none">
 		<ul>
 			<li id="hidden_menu_li"><a href="index.html">Acasă</a></li>
 			<li id="hidden_menu_li"><a href="despre.html">Despre noi</a></li>
 			<li id="hidden_menu_li"><a href="evenimente.html">Evenimente</a></li>
-			<li id="hidden_menu_li"><a href="proiecte.html" style="color: #cc4400;">Proiecte</a></li>
+			<li id="hidden_menu_li"><a href="proiecte.html" style="color: #cc5200;">Proiecte</a></li>
 			<li id="hidden_menu_li"><a href="parteneriate.html">Parteneriate</a></li>
-			<li id="hidden_menu_li"><a href="echipa.html">Echipă</a></li>
+			<li id="hidden_menu_li"><a href="departamente.html">Departamente</a></li>
 			<li id="hidden_menu_li"><a href="doneaza.html">Donează</a></li>
 			<li id="hidden_menu_li"><a href="contact.html">Contact</a></li>
 			<li><img id="close" src="pics/close.png" width="20px"></li>
 		</ul>
 	</section>
 
-	<section class="project-text">
-		<div class="part1">
-			<div class="pics">
-				<a href="proiecte/p3_zambet_in_prag/12.jpg"  data-lightbox="models" data-title="Galerie">
-					<img src="proiecte/p3_zambet_in_prag/12.jpg">
-				</a>
+	<main class="project-page">
+
+		<section class="project-hero">
+			<h1>Zâmbet în Prag</h1>
+
+			<div class="project-subtitle">
+				<span></span>
+				<h2>Sprijin, siguranță și un cămin primitor pentru persoane aflate în dificultate</h2>
+				<span></span>
 			</div>
-			<div class="text">
-				<h3>Prin proiectul „Zâmbet în Prag” ne propunem să aducem bucurie și siguranță în viețile celor aflați în dificultate, oferindu-le un cămin primitor și un loc pe care să-l numească „acasă”.</h3>
-				<h3>De data aceasta, prin construcția acestui container din panouri sandwich, vrem să așezăm un zâmbet pe chipul doamnei Maria, văduvă, fără aparținători care să o sprijinească în anii grei ai bătrâneții care vine adesea cu multe nevoi și neputințe.</h3>
-				<h3> Fiecare prag este o promisiune de stabilitate, sprijin și speranță pentru viitor, iar prin acest proiect dorim să arătăm că solidaritatea poate transforma vieți.</h3>
-				<h3 id="verse">"Religia curată și neîntinată înaintea lui Dumnezeu, Tatăl nostru, este să cercetăm pe orfani și pe văduve în necazurile lor și să ne păzim neîntinați de lume." Iacov 1:27 VDC</h3>
+
+			<div class="project-quote">
+				<p>„Ne dorim ca acest proiect să aducă nu doar un adăpost, ci și liniște, demnitate și speranță pentru un nou început.”</p>
 			</div>
-		</div>
-				
-		<div class="part2">
-			<h3>Multumim celor care au dăruit pentru realizarea acestui proiect!</h3>
-			<h3>Mulțumim celor care au muncit la realizarea acestui proiect!</h3>
-			<h3>Iar mai presus de toate, Îi mulțumim lui Dumnezeu!</h3>
-			<h3 style="font-weight: 450;">Soli Deo Gloria!</h3>
-		</div>
+		</section>
+
+		<section class="intro-text">
+			<p>Prin proiectul „Zâmbet în Prag” ne propunem să aducem bucurie și siguranță în viețile celor aflați în dificultate, oferindu-le un cămin primitor și un loc pe care să-l numească „acasă”.</p>
+
+			<p>De data aceasta, prin construcția acestui container din panouri sandwich, vrem să așezăm un zâmbet pe chipul doamnei Maria, văduvă, fără aparținători care să o sprijinească în anii grei ai bătrâneții care vine adesea cu multe nevoi și neputințe.</p>
+
+			<p>Fiecare prag este o promisiune de stabilitate, sprijin și speranță pentru viitor, iar prin acest proiect dorim să arătăm că solidaritatea poate transforma vieți.</p>
+		</section>
+
+		<section class="two-columns">
+
+			<div class="text-column">
+				<h2>Motivația proiectului</h2>
+
+				<p>Proiectul a fost realizat pentru a oferi un spațiu sigur, practic și primitor unei persoane aflate într-o situație vulnerabilă.</p>
+
+				<p>Prin implicarea celor care au dăruit, au muncit și au susținut această lucrare, un container din panouri sandwich a devenit mai mult decât o construcție: a devenit un loc al speranței și al demnității.</p>
+
+				<p class="verse-text">„Religia curată și neîntinată înaintea lui Dumnezeu, Tatăl nostru, este să cercetăm pe orfani și pe văduve în necazurile lor și să ne păzim neîntinați de lume.” Iacov 1:27 VDC</p>
+			</div>
+
+			<div class="highlight-column">
+				<h2>Ce ne propunem</h2>
+
+				<ul>
+					<li><i class="fa-solid fa-house-chimney-user"></i><span>oferirea unui cămin primitor pentru persoane aflate în dificultate</span></li>
+					<li><i class="fa-solid fa-heart-circle-check"></i><span>aducerea unui sentiment de siguranță, sprijin și speranță</span></li>
+					<li><i class="fa-solid fa-hands-helping"></i><span>mobilizarea oamenilor care doresc să contribuie practic la binele altora</span></li>
+					<li><i class="fa-solid fa-seedling"></i><span>restaurarea demnității și a încrederii pentru persoane vulnerabile</span></li>
+					<li><i class="fa-solid fa-people-group"></i><span>demonstrarea faptului că solidaritatea poate transforma vieți</span></li>
+				</ul>
+			</div>
+
+		</section>
+
+		<section class="activities-section">
+			<h2>Activitățile proiectului</h2>
+
+			<div class="activities-band">
+
+				<div class="activity-item">
+					<div class="activity-icon">
+						<i class="fa-solid fa-house"></i>
+					</div>
+					<h3>Construirea spațiului</h3>
+					<p>A fost construit un container din panouri sandwich, gândit ca spațiu sigur, practic și primitor.</p>
+				</div>
+
+				<div class="activity-item">
+					<div class="activity-icon">
+						<i class="fa-solid fa-screwdriver-wrench"></i>
+					</div>
+					<h3>Muncă practică</h3>
+					<p>Voluntarii și cei implicați au contribuit prin muncă directă la realizarea proiectului.</p>
+				</div>
+
+				<div class="activity-item">
+					<div class="activity-icon">
+						<i class="fa-solid fa-hand-holding-heart"></i>
+					</div>
+					<h3>Donații și sprijin</h3>
+					<p>Proiectul a fost posibil prin implicarea celor care au dăruit pentru realizarea acestei inițiative.</p>
+				</div>
+
+				<div class="activity-item">
+					<div class="activity-icon">
+						<i class="fa-solid fa-person-cane"></i>
+					</div>
+					<h3>Sprijin pentru vulnerabili</h3>
+					<p>Beneficiara proiectului este o persoană văduvă, fără aparținători care să o sprijine în perioada bătrâneții.</p>
+				</div>
+
+				<div class="activity-item">
+					<div class="activity-icon">
+						<i class="fa-solid fa-face-smile"></i>
+					</div>
+					<h3>Bucurie și speranță</h3>
+					<p>Prin acest proiect, asociația dorește să aducă un zâmbet, stabilitate și speranță pentru viitor.</p>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="vision-section">
+			<h2>Mulțumiri</h2>
+
+			<p>Multumim celor care au dăruit pentru realizarea acestui proiect!</p>
+
+			<p>Mulțumim celor care au muncit la realizarea acestui proiect!</p>
+
+			<p>Iar mai presus de toate, Îi mulțumim lui Dumnezeu!</p>
+
+			<p>Soli Deo Gloria!</p>
+
+			<div class="coordinator">
+				<i class="fa-solid fa-user-tie"></i>
+				<span><a href="departamente.html#echipa">Coordonator proiect: Dăncescu Dan Claudiu</a></span>
+			</div>
+					
+			</div>
+		</section>
+
+	</main>
+
+	<section class="gallery-title">
+		<span></span>
+		<h2>GALERIE</h2>
+		<span></span>
 	</section>
+
 	<section class="gallery-container">
 		<div class="gallery">
-			<a href="proiecte\p3_zambet_in_prag\1.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\1.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/1.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/1.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\2.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\2.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/2.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/2.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\3.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\3.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/3.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/3.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\15.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\15.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/15.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/15.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\4.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\4.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/4.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/4.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\5.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\5.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/5.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/5.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\6.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\6.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/6.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/6.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\7.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\7.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/7.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/7.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\8.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\8.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/8.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/8.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\9.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\9.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/9.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/9.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\10.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\10.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/10.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/10.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\11.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\11.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/11.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/11.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\12.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\12.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/12.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/12.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\13.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\13.jpg">
+
+			<a href="proiecte/p3_zambet_in_prag/13.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/13.jpg">
 			</a>
-			<a href="proiecte\p3_zambet_in_prag\14.jpg"  data-lightbox="models" data-title="Galerie">
-				<img src="proiecte\p3_zambet_in_prag\14.jpg">
-			</a>		
+
+			<a href="proiecte/p3_zambet_in_prag/14.jpg" data-lightbox="models" data-title="Galerie">
+				<img src="proiecte/p3_zambet_in_prag/14.jpg">
+			</a>
+
 		</div>
 	</section>
+
 	<script src="lightbox-plus-jquery.min.js"></script>
+
+	<section class="gallery-title">
+		<span></span>
+		<h2>DIN ONLINE</h2>
+		<span></span>
+	</section>
+
 	<section class="links">
-
-		<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid032Tf6ddujahHkNv5GzpJ2KG3KdJS3bQVjYnquCMwnpbtr6RMa5nHmB3AQeHz598tFl%26id%3D61563282731443&show_text=true&width=500" width="500" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
+		<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid032Tf6ddujahHkNv5GzpJ2KG3KdJS3bQVjYnquCMwnpbtr6RMa5nHmB3AQeHz598tFl%26id%3D61563282731443&show_text=true&width=500" width="500" height="420" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 	</section>
 
 	<div class="footer">
 		<img src="pics/LogoFV.png" width="120px">
 		<p>Copyright © 2024 Asociația Forța Vieții. Toate drepturile rezervate.</p>
-		
 	</div>
 
 	<script src="java.js"></script>
+
+	<div id="chatbot-button">
+		<i class="fa-duotone fa-solid fa-comments"></i>
+	</div>
+
+	<div id="chatbot-window" class="hidden">
+		<div id="chatbot-header">
+			<span></span>
+			<button id="chatbot-close">×</button>
+		</div>
+
+		<div id="chatbot-messages">
+			<div class="bot-message">
+				Bună! Sunt asistentul virtual al Asociației Forța Vieții.<br> Cu ce te pot ajuta?
+			</div>
+		</div>
+
+		<div id="chatbot-input-area">
+			<input id="chatbot-input" type="text" placeholder="Scrie un mesaj...">
+			<button id="chatbot-send">Trimite</button>
+		</div>
+	</div>
+
+	<script src="chatbot.js"></script>
 
 </body>
 </html>

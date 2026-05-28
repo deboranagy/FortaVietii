@@ -4,30 +4,42 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Forța Vieții | Contact</title>
+
 	<link rel="stylesheet" href="CSS/stilMenuBar.css">
 	<link rel="stylesheet" href="CSS/stilContact.css">
+	<link rel="stylesheet" href="CSS/chatbot.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 	<script src="java.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poiret+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 	<div class="menu_bar">
 		<img id="logo" src="pics/LogoFV.png" width="120px">
+
 		<ul>
 			<li><a href="index.html">Acasă</a></li>
 			<li><a href="despre.html">Despre noi</a></li>
 			<li><a href="evenimente.html">Evenimente</a></li>
 			<li><a href="proiecte.html">Proiecte</a></li>
 			<li><a href="parteneriate.html">Parteneriate</a></li>
-			<li><a href="echipa.html">Echipă</a></li>
+			<li><a href="departamente.html">Departamente</a></li>
 			<li><a href="doneaza.html">Donează</a></li>
 			<li><a href="contact.html" style="color: #009999;">Contact</a></li>
 		</ul>
+
 		<div id="menu_img">
 			<img src="pics/menu_icon.png" width="40px">
 		</div>
-		
 	</div>
+
 	<section id="menu" style="display:none">
 		<ul>
 			<li id="hidden_menu_li"><a href="index.html">Acasă</a></li>
@@ -35,7 +47,7 @@
 			<li id="hidden_menu_li"><a href="evenimente.html">Evenimente</a></li>
 			<li id="hidden_menu_li"><a href="proiecte.html">Proiecte</a></li>
 			<li id="hidden_menu_li"><a href="parteneriate.html">Parteneriate</a></li>
-			<li id="hidden_menu_li"><a href="echipa.html">Echipă</a></li>
+			<li id="hidden_menu_li"><a href="departamente.html">Departamente</a></li>
 			<li id="hidden_menu_li"><a href="doneaza.html">Donează</a></li>
 			<li id="hidden_menu_li"><a href="contact.html" style="color: #009999;">Contact</a></li>
 			<li><img id="close" src="pics/close.png" width="20px"></li>
@@ -43,63 +55,153 @@
 	</section>
 
 	<div class="contact-container">
+
 		<div class="contact-left">
-			<h3 id="title-info">Informații:</h3>
+
+			<h3 id="title-info">Informații</h3>
+
+			<div class="info-timeline">
+
 				<div class="info-container">
-					<h5>CIF:</h5>
-					<p>45370127</p>
-				</div>
-				<div class="info-container">
-					<h5>Sediu:</h5>
-					<p>Sat Răchitova, Com. Răchitova, nr.33, jud. Hunedoara, România</p>
-				</div>
-				<div class="info-container">
-					<h5>Telefon:</h5>
-					<p>+40769 212 674 - RO</p>
-					<p>+43 676 672 2485 - AT</p>
-				</div>
-				<div class="info-container">
-					<h5>Email:</h5>
-					<p>asociatiafortavietii@gmail.com</p>
-				</div>
-				<div class="info-container">
-					<h5>Sediu:</h5>
-					<p>Sat Răchitova, Com. Răchitova, nr.33, jud. Hunedoara, România</p>
+					<div class="info-icon">
+						<i class="fa-regular fa-id-card"></i>
+					</div>
+
+					<div class="info-text">
+						<h5>CIF</h5>
+						<p>45370127</p>
+					</div>
 				</div>
 
-				<div class="sm">
-					<a href="https://www.facebook.com/profile.php?id=61563282731443"><img src="pics/facebook.png" width="36px"></a>
-					<a href="https://www.facebook.com/profile.php?id=61563282731443"><h5> Asociația Forța Vieții</h5></a>
+				<div class="info-container">
+					<div class="info-icon">
+						<i class="fa-solid fa-location-dot"></i>
+					</div>
+
+					<div class="info-text">
+						<h5>Sediu</h5>
+						<p>Sat Răchitova, Com. Răchitova, nr.33, <br>jud. Hunedoara, România</p>
+					</div>
 				</div>
+
+				<div class="info-container">
+					<div class="info-icon">
+						<i class="fa-solid fa-phone"></i>
+					</div>
+
+					<div class="info-text">
+						<h5>Telefon</h5>
+						<p>+40769 212 674 - RO</p>
+						<p>+43 676 672 2485 - AT</p>
+					</div>
+				</div>
+
+				<div class="info-container">
+					<div class="info-icon">
+						<i class="fa-solid fa-envelope"></i>
+					</div>
+
+					<div class="info-text">
+						<h5>Email</h5>
+						<p>asociatiafortavietii@gmail.com</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="sm">
+
+				<a href="https://www.facebook.com/profile.php?id=61563282731443" target="_blank">
+					<div class="social-icon facebook-icon">
+						<i class="fa-brands fa-facebook-f"></i>
+					</div>
+
+					<span>Asociația Forța Vieții</span>
+				</a>
+
+				<a href="https://www.instagram.com/asociatiafortavietii/" target="_blank">
+					<div class="social-icon instagram-icon">
+						<i class="fa-brands fa-instagram"></i>
+					</div>
+
+					<span>asociatiafortavietii</span>
+				</a>
+
+			</div>
+
 		</div>
+
 		<form action="https://api.web3forms.com/submit" method="POST" class="contact-right">
+
 			<div class="contact-right-title">
 				<h2 class="w3-animate-top">Scrie-ne pe email</h2>
-				<hr class="w3-animate-right">		
+				<hr class="w3-animate-right">
 			</div>
-			
+
 			<input type="hidden" name="access_key" value="9b50125d-74ce-41c0-9b03-fbcc882ab7ff">
+
 			<input type="text" name="name" placeholder="Nume" class="contact-inputs" required>
+
 			<input type="email" name="email" placeholder="Email" class="contact-inputs" required>
+
 			<textarea name="message" placeholder="Mesaj" class="contact-inputs" required></textarea>
+
 			<button type="submit">Trimite</button>
+
 			<input type="hidden" name="subject" value=" ">
-			
+
 		</form>
+
 	</div>
 
 	<div class="map-container">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94141.14516067605!2d22.672072159741333!3d45.61270940610993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474e678ba2fecb9d%3A0x137da0d22e4f66b6!2sComuna%20R%C4%83chitova!5e0!3m2!1sro!2sro!4v1721920907202!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	</div>
 
+		<div class="map-pin">
+			<i class="fa-solid fa-location-dot"></i>
+		</div>
+
+		<iframe
+			src="https://www.google.com/maps?q=Sat%20R%C4%83chitova%2C%20Comuna%20R%C4%83chitova%2C%20nr.%2033%2C%20Hunedoara%2C%20Rom%C3%A2nia&output=embed"
+			width="600"
+			height="450"
+			style="border:0;"
+			allowfullscreen=""
+			loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade">
+		</iframe>
+
+	</div>
 
 	<div class="footer">
 		<img src="pics/LogoFV.png" width="120px">
 		<p>Copyright © 2024 Asociația Forța Vieții. Toate drepturile rezervate.</p>
-		
 	</div>
 
 	<script src="java.js"></script>
+
+	<div id="chatbot-button">
+		<i class="fa-duotone fa-solid fa-comments"></i>
+	</div>
+
+	<div id="chatbot-window" class="hidden">
+		<div id="chatbot-header">
+			<span></span>
+			<button id="chatbot-close">×</button>
+		</div>
+
+		<div id="chatbot-messages">
+			<div class="bot-message">
+				Bună! Sunt asistentul virtual al Asociației Forța Vieții.<br> Cu ce te pot ajuta?
+			</div>
+		</div>
+
+		<div id="chatbot-input-area">
+			<input id="chatbot-input" type="text" placeholder="Scrie un mesaj...">
+			<button id="chatbot-send">Trimite</button>
+		</div>
+	</div>
+
+	<script src="chatbot.js"></script>
 
 </body>
 </html>
