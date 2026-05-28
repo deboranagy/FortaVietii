@@ -1,0 +1,389 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	scroll-padding-top: 50px;
+}
+
+body{
+	background: linear-gradient(180deg,#ffffff,#cccccc);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: "Roboto Condensed", sans-serif;
+	color: #333333;
+}
+
+.events-page{
+	width: min(1500px, 94%);
+	margin: 0 auto;
+	padding-top: 145px;
+	padding-bottom: 90px;
+}
+
+.events-intro{
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.events-intro h1{
+	font-family: "Times New Roman", serif;
+	font-size: clamp(48px, 6vw, 86px);
+	font-weight: 700;
+	color: #cc5200;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+}
+
+.events-intro p{
+	width: fit-content;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	font-size: clamp(18px, 1.5vw, 22px);
+	font-weight: 350;
+	color: #333333;
+	line-height: 1.4;
+	white-space: nowrap;
+}
+
+.events-intro p::before,
+.events-intro p::after{
+	content: "────";
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+}
+
+.events-carousel{
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.events-list{
+	width: 100%;
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: calc((100% - 112px) / 5);
+	gap: 28px;
+	overflow-x: auto;
+	overflow-y: visible;
+	scroll-snap-type: x mandatory;
+	scrollbar-width: none;
+	padding: 10px 4px 26px 4px;
+}
+
+.events-list::-webkit-scrollbar{
+	display: none;
+}
+
+.event{
+	width: 100%;
+	scroll-snap-align: start;
+	border-radius: 18px;
+	overflow: hidden;
+	background: #005f5f;
+	box-shadow: 0 10px 24px rgba(0,0,0,0.20);
+	transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.event:hover{
+	transform: translateY(-7px);
+	box-shadow: 0 18px 34px rgba(0,0,0,0.28);
+}
+
+.event a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: inherit;
+}
+
+.event-pic{
+	width: 100%;
+	height: 205px;
+	position: relative;
+	overflow: hidden;
+	background: #dddddd;
+}
+
+.event-pic img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	transition: transform 0.35s ease;
+}
+
+.event:hover .event-pic img{
+	transform: scale(1.05);
+}
+
+.event-badge{
+	position: absolute;
+	top: 14px;
+	left: 14px;
+	background: linear-gradient(180deg,#cc5200,#ff8533);
+	color: white;
+	font-family: "Times New Roman", serif;
+	font-size: 17px;
+	font-weight: 700;
+	padding: 7px 13px;
+	border-radius: 6px;
+	box-shadow: 0 5px 14px rgba(0,0,0,0.25);
+}
+
+.event-info{
+	position: relative;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 34px 28px 28px 28px;
+	min-height: 350px;
+	color: white;
+}
+
+.event-info h2{
+	width: 100%;
+	font-family: "Times New Roman", serif;
+	font-size: 21px;
+	font-weight: 700;
+	color: white;
+	line-height: 1.22;
+	text-align: center;
+	margin-bottom: 9px;
+	text-transform: uppercase;
+}
+
+.event-info h3{
+	width: 100%;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #ff8533;
+	letter-spacing: 0.4px;
+	line-height: 1.25;
+	text-align: center;
+	margin-bottom: 24px;
+	text-transform: uppercase;
+}
+
+.event-info p{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 16px;
+	font-weight: 350;
+	color: white;
+	line-height: 1.35;
+	margin-bottom: 11px;
+}
+
+.event-info p i{
+	color: #ff8533;
+	font-size: 15px;
+	margin-top: 3px;
+	flex-shrink: 0;
+}
+
+.details-btn{
+	width: 100%;
+	max-width: 190px;
+	min-height: 44px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 18px;
+	margin: auto auto 0 auto;
+	padding: 11px 24px;
+	background: white;
+	color: #006666;
+	border-radius: 28px;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+	transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.event:hover .details-btn{
+	background: #ff8533;
+	color: white;
+	transform: translateY(-2px);
+}
+
+.event-arrow{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 3;
+	width: 58px;
+	height: 58px;
+	border: none;
+	border-radius: 50%;
+	background: white;
+	color: #006666;
+	font-size: 25px;
+	cursor: pointer;
+	box-shadow: 0 8px 22px rgba(0,0,0,0.20);
+	transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.event-arrow:hover{
+	background: #006666;
+	color: white;
+	transform: translateY(-50%) scale(1.06);
+}
+
+.left-arrow{
+	left: -28px;
+}
+
+.right-arrow{
+	right: -28px;
+}
+
+@media screen and (max-width: 1350px){
+
+	.events-list{
+		grid-auto-columns: calc((100% - 84px) / 4);
+	}
+}
+
+@media screen and (max-width: 1050px){
+
+	.events-list{
+		grid-auto-columns: calc((100% - 56px) / 3);
+	}
+
+	.event-pic{
+		height: 210px;
+	}
+}
+
+@media screen and (max-width: 760px){
+
+	.events-page{
+		width: 88%;
+		padding-top: 130px;
+		padding-bottom: 65px;
+	}
+
+	.events-intro{
+		margin-bottom: 48px;
+	}
+
+	.events-intro h1{
+		font-size: 46px;
+		letter-spacing: 2px;
+	}
+
+	.events-intro p{
+		font-size: 16px;
+		gap: 10px;
+		white-space: normal;
+	}
+
+	.events-intro p::before,
+	.events-intro p::after{
+		content: "──";
+	}
+
+	.events-list{
+		grid-auto-columns: calc((100% - 28px) / 2);
+		gap: 28px;
+	}
+
+	.event-info{
+		min-height: 335px;
+		padding: 32px 22px 26px 22px;
+	}
+
+	.event-info h2{
+		font-size: 19px;
+	}
+
+	.event-info h3{
+		font-size: 15px;
+	}
+
+	.event-info p{
+		font-size: 15px;
+	}
+
+	.event-arrow{
+		width: 48px;
+		height: 48px;
+		font-size: 20px;
+	}
+
+	.left-arrow{
+		left: -18px;
+	}
+
+	.right-arrow{
+		right: -18px;
+	}
+}
+
+@media screen and (max-width: 560px){
+
+	.events-list{
+		grid-auto-columns: 100%;
+	}
+
+	.event-pic{
+		height: 245px;
+	}
+
+	.event-info{
+		min-height: auto;
+	}
+
+	.event-info h2{
+		font-size: 22px;
+	}
+
+	.event-info h3{
+		font-size: 16px;
+	}
+
+	.event-info p{
+		font-size: 16px;
+	}
+
+	.details-btn{
+		margin-top: 18px;
+	}
+}
+
+@media screen and (max-width: 380px){
+
+	.events-page{
+		width: 92%;
+	}
+
+	.events-intro h1{
+		font-size: 39px;
+	}
+
+	.event-pic{
+		height: 220px;
+	}
+
+	.event-info h2{
+		font-size: 20px;
+	}
+}
