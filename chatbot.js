@@ -45,8 +45,7 @@ async function sendMessage() {
   );
 
   try {
-    const response = await fetch(
-      "https://forta-vietii-chatbot.onrender.com/chat",
+   const response = await fetch("https://forta-vietii-chatbot.onrender.com/chat", 
       {
         method: "POST",
         headers: {
