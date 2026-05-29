@@ -41,7 +41,7 @@ async function sendMessage() {
   addMessage("Se generează răspunsul...", "bot-message", "loading-message");
 
   try {
-    const response = await fetch("http://localhost:3000/chat", {
+    const response = await fetch("https://forta-vietii-chatbot.onrender.com/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
