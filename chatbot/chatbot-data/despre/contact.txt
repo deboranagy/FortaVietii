@@ -1,0 +1,226 @@
+NUME PAGINĂ
+Contact
+
+TITLU PAGINĂ
+Forța Vieții | Contact
+
+ORGANIZAȚIE
+Asociația Forța Vieții
+
+TIP PAGINĂ
+Pagină oficială de contact și comunicare
+
+SCOP PAGINĂ
+Pagina „Contact” oferă informații oficiale de contact pentru Asociația Forța Vieții și facilitează comunicarea directă dintre organizație și comunitate.
+
+ROLUL PAGINII
+Pagina este destinată:
+- persoanelor care doresc informații despre asociație;
+- voluntarilor;
+- donatorilor;
+- partenerilor;
+- beneficiarilor;
+- persoanelor care doresc să trimită mesaje sau solicitări către asociație.
+
+DATE OFICIALE ORGANIZAȚIE
+
+DENUMIRE COMPLETĂ
+Asociația Forța Vieții
+
+CIF
+45370127
+
+SEDIU OFICIAL
+Sat Răchitova, Comuna Răchitova, nr. 33, județul Hunedoara, România
+
+ȚARĂ
+România
+
+LOCALIZARE
+Județul Hunedoara
+
+DATE DE CONTACT
+
+TELEFON ROMÂNIA
++40 769 212 674
+
+TELEFON AUSTRIA
++43 676 672 2485
+
+EMAIL OFICIAL
+asociatiafortavietii@gmail.com
+
+PREZENȚĂ INTERNAȚIONALĂ
+Pagina include număr de contact pentru:
+- România;
+- Austria.
+
+REȚELE SOCIALE
+
+FACEBOOK
+Asociația Forța Vieții
+
+INSTAGRAM
+asociatiafortavietii
+
+SCOP SOCIAL MEDIA
+Canalele sociale sunt utilizate pentru:
+- comunicare cu comunitatea;
+- promovarea proiectelor;
+- prezentarea activităților;
+- distribuirea informațiilor;
+- interacțiune cu susținătorii și voluntarii.
+
+FORMULAR DE CONTACT
+
+PAGINA INCLUDE
+- formular de contact online;
+- câmp pentru nume;
+- câmp pentru email;
+- câmp pentru mesaj;
+- buton de trimitere mesaj.
+
+SCOPUL FORMULARULUI
+Formularul este destinat:
+- solicitărilor de informații;
+- întrebărilor generale;
+- colaborărilor;
+- voluntariatului;
+- comunicării directe cu asociația;
+- solicitărilor legate de proiecte și activități.
+
+COMUNICARE
+Pagina promovează comunicarea directă și accesibilă între Asociația Forța Vieții și comunitate.
+
+HARTĂ ȘI LOCALIZARE
+
+HARTĂ GOOGLE MAPS
+Pagina include integrare Google Maps pentru localizarea sediului asociației.
+
+ADRESĂ AFIȘATĂ PE HARTĂ
+Sat Răchitova, Comuna Răchitova, nr. 33, Hunedoara, România
+
+SCOP HARTĂ
+Harta facilitează:
+- identificarea sediului;
+- orientarea vizitatorilor;
+- accesul la locația asociației.
+
+CHATBOT
+
+ASISTENT VIRTUAL
+Pagina include un chatbot integrat al Asociației Forța Vieții.
+
+MESAJ DE ÎNTÂMPINARE CHATBOT
+„Bună! Sunt asistentul virtual al Asociației Forța Vieții. Cu ce te pot ajuta?”
+
+SCOP CHATBOT
+Chatbotul oferă informații și sprijin privind:
+- proiectele asociației;
+- evenimente;
+- donații;
+- voluntariat;
+- contact;
+- activități și implicare comunitară.
+
+FUNCȚIONALITĂȚI CHATBOT
+- deschidere și închidere fereastră chatbot;
+- trimitere mesaje;
+- zonă de conversație;
+- introducere text pentru utilizator;
+- răspuns automat.
+
+STRUCTURA PAGINII
+
+SECȚIUNI PRINCIPALE
+- meniu principal;
+- informații de contact;
+- rețele sociale;
+- formular contact;
+- hartă;
+- chatbot;
+- footer.
+
+MENIU PRINCIPAL
+Pagina include navigare către:
+- Acasă;
+- Despre noi;
+- Evenimente;
+- Proiecte;
+- Parteneriate;
+- Departamente;
+- Donează;
+- Contact.
+
+FOOTER
+Pagina include footer oficial cu:
+- logo-ul Asociației Forța Vieții;
+- mesaj copyright.
+
+COPYRIGHT
+Copyright © 2024 Asociația Forța Vieții. Toate drepturile rezervate.
+
+IDENTITATE VIZUALĂ
+
+ELEMENTE GRAFICE
+Pagina utilizează:
+- logo-ul Asociației Forța Vieții;
+- icon-uri Font Awesome;
+- animații vizuale;
+- design modern și responsive.
+
+STIL ȘI DESIGN
+Pagina utilizează:
+- design responsive;
+- structură modernă;
+- organizare pe secțiuni;
+- elemente vizuale pentru contact și comunicare.
+
+TEHNOLOGII UTILIZATE
+Pagina utilizează:
+- HTML;
+- CSS;
+- JavaScript;
+- Font Awesome;
+- Google Fonts;
+- Google Maps;
+- Web3Forms;
+- W3.CSS.
+
+WEB3FORMS
+Formularul de contact utilizează serviciul Web3Forms pentru transmiterea mesajelor.
+
+FONTURI UTILIZATE
+Pagina utilizează fonturi Google Fonts:
+- Dancing Script;
+- Imperial Script;
+- Pacifico;
+- Playwrite GB S;
+- Poiret One;
+- Roboto Condensed.
+
+VALORI PROMOVATE
+- transparență;
+- comunicare;
+- disponibilitate;
+- apropiere față de comunitate;
+- sprijin;
+- colaborare;
+- implicare;
+- accesibilitate.
+
+MESAJ
+Asociația Forța Vieții promovează apropierea față de oameni și încurajează comunicarea directă cu persoanele care doresc informații, sprijin sau implicare în activitățile organizației.
+
+RESURSE ȘI FUNCȚIONALITĂȚI
+Pagina include:
+- informații oficiale;
+- telefon;
+- email;
+- formular contact;
+- hartă Google Maps;
+- rețele sociale;
+- chatbot;
+- meniu de navigare;
+- design responsive;
+- integrare servicii externe pentru comunicare.
