@@ -605,8 +605,8 @@ function getSmallTalkResponse(message) {
   }
 
   if (
-    greetingMessages.some(
-      (text) => normalized === normalizeText(text)
+    greetingMessages.some((text) =>
+      normalized.includes(normalizeText(text))
     )
   ) {
     return "Bună! Sunt asistentul virtual al Asociației Forța Vieții. Cu ce te pot ajuta?";
