@@ -38,19 +38,26 @@ async function sendMessage() {
     content: message,
   });
 
-  addMessage("Se generează răspunsul...", "bot-message", "loading-message");
+  addMessage(
+    "Se generează răspunsul...",
+    "bot-message",
+    "loading-message"
+  );
 
   try {
-    const response = await fetch("https://forta-vietii-chatbot.onrender.com/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        message,
-        history: chatHistory.slice(-10),
-      }),
-    });
+    const response = await fetch(
+      "https://forta-vietii-chatbot.onrender.com/chat",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          message,
+          history: chatHistory.slice(-10),
+        }),
+      }
+    );
 
     const data = await response.json();
 
@@ -64,25 +71,36 @@ async function sendMessage() {
         content: data.reply,
       });
     } else {
-      addMessage("Nu am putut genera un răspuns momentan.", "bot-message");
+      addMessage(
+        "Nu am putut genera un răspuns momentan.",
+        "bot-message"
+      );
     }
   } catch (error) {
     removeLoadingMessage();
-    addMessage("Eroare de conectare la serverul chatbot.", "bot-message");
+
+    addMessage(
+      "Eroare de conectare la serverul chatbot.",
+      "bot-message"
+    );
+
     console.error(error);
   }
 }
 
 function addMessage(text, className, extraClass = "") {
   const messageDiv = document.createElement("div");
+
   messageDiv.className = `${className} ${extraClass}`;
   messageDiv.textContent = text;
+
   chatbotMessages.appendChild(messageDiv);
   chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
 }
 
 function removeLoadingMessage() {
   const loadingMessage = document.querySelector(".loading-message");
+
   if (loadingMessage) {
     loadingMessage.remove();
   }
@@ -92,9 +110,11 @@ function resetChatMessages() {
   chatbotMessages.innerHTML = "";
 
   const botMessage = document.createElement("div");
+
   botMessage.className = "bot-message";
+
   botMessage.innerHTML =
-    "Bună! Sunt asistentul virtual al Asociației Forța Vieții.<br> Cu ce te pot ajuta?";
+    "Bună! Sunt asistentul virtual al Asociației Forța Vieții.<br>Cu ce te pot ajuta?";
 
   chatbotMessages.appendChild(botMessage);
 }
