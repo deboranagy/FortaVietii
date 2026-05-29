@@ -577,11 +577,15 @@ function getSmallTalkResponse(message) {
 
   const greetingMessages = [
     "salut",
+    "Salut",
+    "salutare",
     "buna",
     "bună",
     "hello",
     "hi",
     "hey",
+    "hei",
+    "ceau",
   ];
 
   if (
