@@ -402,7 +402,7 @@ function getTopQAContext(query, limit = 10) {
     .join("\n\n---\n\n");
 }
 
-function getTopFileContext(query, limit = 10) {
+function getTopFileContext(query, limit = 8) {
   const files = readTxtFilesRecursively(DATA_DIR);
   const chunks = [];
 
