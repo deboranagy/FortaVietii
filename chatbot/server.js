@@ -381,7 +381,7 @@ function calculateScore(query, text) {
   return score;
 }
 
-function getTopQAContext(query, limit = 8) {
+function getTopQAContext(query, limit = 12) {
   const entries = getQAEntries();
 
   return entries
@@ -402,7 +402,7 @@ function getTopQAContext(query, limit = 8) {
     .join("\n\n---\n\n");
 }
 
-function getTopFileContext(query, limit = 6) {
+function getTopFileContext(query, limit = 10) {
   const files = readTxtFilesRecursively(DATA_DIR);
   const chunks = [];
 
