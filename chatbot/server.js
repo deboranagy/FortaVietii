@@ -381,7 +381,7 @@ function calculateScore(query, text) {
   return score;
 }
 
-function getTopQAContext(query, limit = 12) {
+function getTopQAContext(query, limit = 10) {
   const entries = getQAEntries();
 
   return entries
