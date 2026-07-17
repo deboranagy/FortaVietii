@@ -96,6 +96,111 @@ body{
 	transform: translateX(4px);
 }
 
+.upcoming-event{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	gap:55px;
+
+	background:linear-gradient(180deg,#006666,#009999);
+
+	border-radius:20px;
+
+	padding:40px;
+
+	margin-bottom:70px;
+
+	box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.upcoming-event-text{
+	flex:1;
+	color:white;
+	text-align:left;
+}
+
+.event-badge{
+	display:inline-flex;
+	align-items:center;
+	gap:12px;
+
+	padding:10px 20px;
+
+	border-radius:50px;
+
+	background:rgba(255,255,255,.18);
+
+	color: #ff751a;
+
+	font-size:19px;
+	font-weight:700;
+
+	margin-bottom:22px;
+}
+
+.event-badge i{
+	font-size:22px;
+}
+
+.upcoming-event h2{
+	font-family:"Times New Roman",serif;
+	font-size:38px;
+
+	margin-bottom:20px;
+}
+
+.upcoming-event p{
+	font-size:19px;
+	font-weight:350;
+	line-height:1.7;
+
+	margin-bottom:18px;
+}
+
+.upcoming-event strong{
+	font-weight:700;
+}
+
+.upcoming-event-poster{
+	flex:0 0 320px;
+}
+
+.upcoming-event-poster img{
+	width:100%;
+	display:block;
+
+	border-radius:14px;
+
+	box-shadow:0 12px 28px rgba(0,0,0,.28);
+}
+
+.facebook-event{
+	display:inline-flex;
+	align-items:center;
+	gap:10px;
+
+	margin-top:8px;
+
+	text-decoration:none;
+
+	color:white;
+
+	font-size:16px;
+	font-weight:500;
+
+	transition:color .25s ease, transform .25s ease;
+}
+
+.facebook-event i{
+	font-size:22px;
+	transition:color .25s ease;
+}
+
+.facebook-event:hover{
+	color:#ff751a;
+	transform:translateX(3px);
+}
+
 .quick-links{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -378,6 +483,23 @@ body{
 		border-bottom: 2px solid rgba(0,102,102,0.38);
 	}
 
+	.upcoming-event{
+	flex-direction:column-reverse;
+	text-align:center;
+	padding:34px;
+	gap:35px;
+}
+
+.upcoming-event-text{
+	text-align:center;
+}
+
+.upcoming-event-poster{
+	flex:unset;
+	width:320px;
+	max-width:100%;
+}
+
 	.donate-section{
 		grid-template-columns: 1fr;
 		text-align: center;
@@ -423,6 +545,31 @@ body{
 	.intro-section p{
 		font-size: 19px;
 	}
+
+	.upcoming-event{
+	padding:24px;
+	margin-bottom:55px;
+}
+
+.upcoming-event h2{
+	font-size:31px;
+}
+
+.upcoming-event p{
+	font-size:18px;
+}
+
+.event-badge{
+	font-size:14px;
+}
+
+.facebook-event{
+	font-size:15px;
+}
+
+.facebook-event i{
+	font-size:20px;
+}
 
 	.quick-links{
 		grid-template-columns: 1fr;
