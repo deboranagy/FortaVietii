@@ -1,0 +1,218 @@
+NUME PAGINĂ
+Acasă
+
+ORGANIZAȚIE
+Asociația Forța Vieții
+
+TITLU PAGINĂ
+Forța Vieții | Acasă
+
+SCOP PAGINĂ
+Pagina principală prezintă Asociația Forța Vieții, valorile și domeniile sale de implicare, calendarul taberelor de vară din 2026, principalele secțiuni ale site-ului, posibilitatea de a face o donație, datele de contact și locațiile asociate activităților organizației.
+
+DESCRIERE GENERALĂ
+Asociația Forța Vieții reunește oameni motivați de credință, compasiune și responsabilitate, implicați în sprijinirea persoanelor vulnerabile și în dezvoltarea comunităților uitate prin proiecte:
+- educaționale;
+- sociale;
+- culturale;
+- umanitare;
+- de sprijin moral-spiritual.
+
+MESAJUL PAGINII
+„Sunt doar un om, dar sunt cineva;
+nu pot face totul, dar pot face ceva;
+nu voi refuza să fac acel lucru pe care pot să-l fac!”
+
+AUTOR CITAT
+Helen Adams Keller
+
+
+PREZENTAREA ASOCIAȚIEI
+Asociația Forța Vieții reunește oameni motivați de credință, compasiune și responsabilitate, implicați în sprijinirea persoanelor vulnerabile și în dezvoltarea comunităților uitate prin proiecte educaționale, sociale, culturale, umanitare și de sprijin moral-spiritual.
+
+Secțiunea de prezentare include un link către pagina „Despre noi”.
+
+
+==================================================
+CALENDAR TABERE DE VARĂ 2026
+==================================================
+
+Pagina principală afișează calendarul taberelor de vară din anul 2026.
+
+TABĂRA 1
+Perioada: 20–22 iulie 2026
+Locația: Ghelari, Hunedoara
+Tematica: „Un Salvator pentru tine”
+
+TABĂRA 2
+Perioada: 27–29 iulie 2026
+Locația: Târgu Cărbunești, Gorj
+Tematica: „Academia Masterchef”
+
+TABĂRA 3
+Perioada: 30–31 iulie 2026
+Locația: Fărcaș, Dolj
+Tematica: „Academia Masterchef”
+
+TABĂRA 4
+Perioada: 3–6 august 2026
+Locația: Sâncel, Alba
+Tematica: „În construcție”
+
+TABĂRA 5
+Perioada: 13–15 august 2026
+Locația: Piatra, Republica Moldova
+Tematica: „În construcție”
+
+TABĂRA 6
+Perioada: 17–19 august 2026
+Locația: Pohorniceni, Republica Moldova
+Tematica: „Regatul probelor de foc”
+
+TABĂRA 7
+Perioada: 20–22 august 2026
+Locația: Zorile, Republica Moldova
+Tematica: „În construcție”
+
+TABĂRA 8
+Perioada: 27–29 august 2026
+Locația: Stoina, Gorj
+Tematica: „Academia Masterchef”
+
+
+==================================================
+SECȚIUNI PRINCIPALE
+==================================================
+
+EVENIMENTE
+Secțiunea Evenimente prezintă activități care încurajează și aduc bucurie în comunități.
+
+Link:
+evenimente.html
+
+PROIECTE
+Secțiunea Proiecte prezintă proiecte prin care Asociația Forța Vieții aduce sprijin și speranță.
+
+Link:
+proiecte.html
+
+DEPARTAMENTE
+Secțiunea Departamente prezintă echipe dedicate diferitelor arii de lucru ale asociației.
+
+Link:
+departamente.html
+
+PARTENERIATE
+Secțiunea Parteneriate transmite ideea că împreună se poate face mai mult și prezintă partenerii asociației.
+
+Link:
+parteneriate.html
+
+
+==================================================
+DONAȚII
+==================================================
+
+MESAJ
+„Fiecare donație aduce speranță.”
+
+DESCRIERE
+Cu ajutorul donațiilor, Asociația Forța Vieții poate continua să fie alături de cei care au nevoie.
+
+Link:
+doneaza.html
+
+TEXT BUTON
+Donează acum
+
+
+==================================================
+DATE DE CONTACT
+==================================================
+
+TELEFON ROMÂNIA
+0769 212 674
+
+TELEFON AUSTRIA
++43 676 672 2485
+
+EMAIL
+asociatiafortavietii@gmail.com
+
+FACEBOOK
+Asociația Forța Vieții
+
+Pagina de contact poate fi accesată din secțiunea de contact.
+
+Link:
+contact.html
+
+
+==================================================
+HARTA LOCAȚIILOR
+==================================================
+
+Pagina principală conține o hartă interactivă cu locații asociate activităților Asociației Forța Vieții.
+
+LEGENDA HĂRȚII
+Marker roșu:
+Sedii secundare
+
+Marker albastru:
+Proiecte
+
+
+SEDII SECUNDARE
+- Ghelari, Hunedoara
+- Sâncel, Alba
+- Fărcaș, Dolj
+- Moflești, Dolj
+- Stoina, Gorj
+- Caransebeș, Caraș-Severin
+- București, Sector 1
+- Cârligul Mare, Buzău
+- Siret, Suceava
+- Băbeni, Vâlcea
+- Sibiu, Sibiu
+- Arad, Arad
+- Piatra, Raion Orhei, Republica Moldova
+
+
+PROIECTE
+- Cernăuți, Ucraina
+- Reni, Ucraina
+
+
+==================================================
+MENIUL PRINCIPAL
+==================================================
+
+Pagina principală face parte din meniul principal al site-ului.
+
+SECȚIUNI DIN MENIU:
+- Acasă
+- Despre noi
+- Evenimente
+- Proiecte
+- Parteneriate
+- Departamente
+- Donează
+- Contact
+
+
+==================================================
+INFORMAȚII SUPLIMENTARE
+==================================================
+
+LOGO
+Pagina utilizează logo-ul Asociației Forța Vieții.
+
+CHATBOT
+Pagina principală include asistentul virtual al Asociației Forța Vieții.
+
+MESAJ INIȚIAL CHATBOT
+„Bună! Sunt asistentul virtual al Asociației Forța Vieții.
+Cu ce te pot ajuta?”
+
+SUBSOL PAGINĂ
+Copyright © 2024 Asociația Forța Vieții. Toate drepturile rezervate.
