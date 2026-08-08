@@ -99,14 +99,13 @@ body{
 .upcoming-event{
 	display:flex;
 	align-items:center;
-	justify-content:space-between;
-	gap:55px;
+	justify-content:center;
 
 	background:linear-gradient(180deg,#006666,#009999);
 
 	border-radius:20px;
 
-	padding:40px;
+	padding:42px 55px;
 
 	margin-bottom:70px;
 
@@ -114,91 +113,108 @@ body{
 }
 
 .upcoming-event-text{
-	flex:1;
+	width:100%;
+	max-width:1050px;
+
 	color:white;
 	text-align:left;
 }
 
 .event-badge{
-	display:inline-flex;
+	display:flex;
 	align-items:center;
-	gap:12px;
+	justify-content:center;
+	gap:13px;
 
-	padding:10px 20px;
+	margin:0 auto 38px auto;
 
-	border-radius:50px;
-
-	background:rgba(255,255,255,.18);
-
-	color: #ff751a;
-
-	font-size:21px;
+	font-size:29px;
 	font-weight:700;
 
-	margin-bottom:22px;
+	color:#ff751a;
 }
 
 .event-badge i{
-	font-size:25px;
+	font-size:31px;
 }
 
-.upcoming-event h2{
+.summer-camp-columns{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	column-gap:85px;
+}
+
+.summer-camp-column{
+	position:relative;
+	padding-left:38px;
+}
+
+.summer-camp-column::before{
+	content:"";
+
+	position:absolute;
+
+	left:9px;
+	top:10px;
+	bottom:10px;
+
+	width:2px;
+
+	background:#ff751a;
+}
+
+.camp-item{
+	position:relative;
+
+	min-height:125px;
+}
+
+.camp-dot{
+	position:absolute;
+
+	left:-38px;
+	top:7px;
+
+	width:20px;
+	height:20px;
+
+	background:#ff751a;
+
+	border:4px solid #006666;
+
+	border-radius:50%;
+
+	box-shadow:0 0 0 1px #ff751a;
+
+	z-index:1;
+}
+
+.camp-info{
+	padding-bottom:32px;
+}
+
+.camp-main{
+	margin-bottom:7px;
+}
+
+.camp-info h3{
 	font-family:"Times New Roman",serif;
-	font-size:38px;
 
-	margin-bottom:20px;
-}
-
-.upcoming-event p{
-	font-size:19px;
-	font-weight:350;
-	line-height:1.7;
-
-	margin-bottom:18px;
-}
-
-.upcoming-event strong{
+	font-size:22px;
 	font-weight:700;
-}
-
-.upcoming-event-poster{
-	flex:0 0 320px;
-}
-
-.upcoming-event-poster img{
-	width:100%;
-	display:block;
-
-	border-radius:14px;
-
-	box-shadow:0 12px 28px rgba(0,0,0,.28);
-}
-
-.facebook-event{
-	display:inline-flex;
-	align-items:center;
-	gap:10px;
-
-	margin-top:8px;
-
-	text-decoration:none;
 
 	color:white;
 
-	font-size:16px;
+	margin:0;
+}
+
+.camp-info span{
+	display:block;
+
+	font-size:17px;
 	font-weight:500;
 
-	transition:color .25s ease, transform .25s ease;
-}
-
-.facebook-event i{
-	font-size:22px;
-	transition:color .25s ease;
-}
-
-.facebook-event:hover{
 	color:#ff751a;
-	transform:translateX(3px);
 }
 
 .quick-links{
@@ -484,21 +500,16 @@ body{
 	}
 
 	.upcoming-event{
-	flex-direction:column-reverse;
-	text-align:center;
-	padding:34px;
-	gap:35px;
-}
+		padding:38px 40px;
+	}
 
-.upcoming-event-text{
-	text-align:center;
-}
+	.summer-camp-columns{
+		column-gap:55px;
+	}
 
-.upcoming-event-poster{
-	flex:unset;
-	width:320px;
-	max-width:100%;
-}
+	.camp-info h3{
+		font-size:21px;
+	}
 
 	.donate-section{
 		grid-template-columns: 1fr;
@@ -547,29 +558,58 @@ body{
 	}
 
 	.upcoming-event{
-	padding:24px;
-	margin-bottom:55px;
-}
+		padding:30px 24px;
+		margin-bottom:55px;
+	}
 
-.upcoming-event h2{
-	font-size:31px;
-}
+	.event-badge{
+		font-size:20px;
+		margin-bottom:30px;
+		text-align:center;
+	}
 
-.upcoming-event p{
-	font-size:18px;
-}
+	.event-badge i{
+		font-size:23px;
+	}
 
-.event-badge{
-	font-size:14px;
-}
+	.summer-camp-columns{
+		grid-template-columns:1fr;
+		row-gap:0;
+	}
 
-.facebook-event{
-	font-size:15px;
-}
+	.summer-camp-column{
+		padding-left:34px;
+	}
 
-.facebook-event i{
-	font-size:20px;
-}
+	.summer-camp-column::before{
+		left:8px;
+	}
+
+	.camp-dot{
+		left:-34px;
+
+		width:18px;
+		height:18px;
+
+		border-width:3px;
+	}
+
+	.camp-item{
+		min-height:105px;
+	}
+
+	.camp-info{
+		padding-bottom:25px;
+	}
+
+	.camp-info h3{
+		font-size:20px;
+		margin-bottom:3px;
+	}
+
+	.camp-info span{
+		font-size:16px;
+	}
 
 	.quick-links{
 		grid-template-columns: 1fr;
