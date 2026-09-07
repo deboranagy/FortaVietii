@@ -96,6 +96,104 @@ body{
 	transform: translateX(4px);
 }
 
+.volunteer-section{
+	display: grid;
+	grid-template-columns: 0.8fr 1.2fr;
+	align-items: center;
+	gap: 48px;
+
+	background: linear-gradient(270deg,#cc5200,#ff8533);
+
+	border-radius: 20px;
+
+	padding: 38px 50px;
+
+	margin-bottom: 70px;
+
+	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.volunteer-video{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.volunteer-video video{
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+
+	display: block;
+
+	border-radius: 14px;
+
+	box-shadow: 0 7px 20px rgba(0,0,0,0.20);
+}
+
+.volunteer-text{
+	color: white;
+	text-align: left;
+}
+
+.volunteer-text h2{
+	font-family: "Times New Roman", serif;
+
+	font-size: 29px;
+	font-weight: 700;
+
+	line-height: 1.25;
+
+	margin-bottom: 18px;
+}
+
+.volunteer-text p{
+	font-size: 18px;
+	font-weight: 300;
+
+	line-height: 1.5;
+
+	margin-bottom: 15px;
+}
+
+.volunteer-text p:last-child{
+	margin-bottom: 0;
+}
+
+.volunteer-link{
+	margin-top: 22px;
+}
+
+.volunteer-link a{
+	display: inline-flex;
+	align-items: center;
+	gap: 9px;
+
+	color: white;
+
+	text-decoration: none;
+
+	font-size: 19px;
+	font-weight: 700;
+
+	transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.volunteer-link a i{
+	font-size: 14px;
+
+	transition: transform 0.25s ease;
+}
+
+.volunteer-link a:hover{
+	color: #006666;
+}
+
+.volunteer-link a:hover i{
+	transform: translateX(4px);
+}
+
 .upcoming-event{
 	display:flex;
 	align-items:center;
@@ -499,6 +597,21 @@ body{
 		border-bottom: 2px solid rgba(0,102,102,0.38);
 	}
 
+	.volunteer-section{
+		grid-template-columns: 1fr;
+		gap: 30px;
+
+		padding: 35px 40px;
+	}
+
+	.volunteer-video video{
+		max-width: 300px;
+	}
+
+	.volunteer-text{
+		text-align: left;
+	}
+
 	.upcoming-event{
 		padding:38px 40px;
 	}
@@ -555,6 +668,42 @@ body{
 
 	.intro-section p{
 		font-size: 19px;
+	}
+
+	.volunteer-section{
+		grid-template-columns: 1fr;
+
+		gap: 25px;
+
+		padding: 30px 22px;
+
+		margin-bottom: 55px;
+	}
+
+	.volunteer-video video{
+		width: 100%;
+		max-width: 300px;
+
+		border-radius: 12px;
+	}
+
+	.volunteer-text h2{
+		font-size: 25px;
+		margin-bottom: 15px;
+	}
+
+	.volunteer-text p{
+		font-size: 17px;
+		line-height: 1.5;
+		margin-bottom: 14px;
+	}
+
+	.volunteer-link{
+		margin-top: 20px;
+	}
+
+	.volunteer-link a{
+		font-size: 18px;
 	}
 
 	.upcoming-event{
